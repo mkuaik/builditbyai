@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta name='impact-site-verification' value='022323a6-187c-47df-aaef-b0cbb263a0b3' />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="BuildItByAI — دليلك العربي الشامل لأدوات الذكاء الاصطناعي. اكتشف، قارن، وابنِ مشروعك بالذكاء الاصطناعي.">
+  <title>BuildItByAI — ابنِها بالذكاء الاصطناعي</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="BuildItByAI — ابنِها بالذكاء الاصطناعي">
+  <meta property="og:description" content="دليلك العربي الشامل لأدوات الذكاء الاصطناعي. اكتشف، قارن، وابنِ مشروعك.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://builditbyai.com/">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:image" content="https://builditbyai.com/BuildItByAI_Logo_Robots.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="512">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BuildItByAI — ابنِها بالذكاء الاصطناعي">
+  <meta name="twitter:description" content="دليلك العربي الشامل لأدوات الذكاء الاصطناعي. اكتشف، قارن، وابنِ مشروعك.">
+  <meta name="twitter:image" content="https://builditbyai.com/BuildItByAI_Logo_Robots.png">
+
+  <!-- Favicon & PWA -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4F0DNNBP1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H4F0DNNBP1');
+  </script>
+</head>
+
+<body>
+
+  <!-- === Navbar === -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="logo" dir="ltr">
+        Build<span>It</span>ByAI
+      </a>
+      <div class="nav-actions">
+        <label class="theme-switch" for="themeToggle">
+          <input type="checkbox" id="themeToggle">
+          <span class="theme-slider"></span>
+          <span class="theme-label">الوضع الداكن</span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <!-- === Hero Section === -->
+  <section class="hero">
+    <div class="container">
+      <h1>اكتشف أدوات <span class="highlight">الذكاء الاصطناعي</span></h1>
+      <p>دليلك العربي الشامل للأدوات الذكية التي تساعدك على البناء والإنجاز بسرعة وكفاءة. مراجعات موضوعية ومحايدة.
+      </p>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="🔍  ابحث عن أداة... مثال: كتابة، تصميم، فيديو">
+      </div>
+    </div>
+  </section>
+
+  <!-- === Type Filter === -->
+  <section class="container">
+    <div class="type-filters" id="typeFilters">
+      <button class="type-btn active" onclick="setTypeFilter('الكل')">الكل</button>
+      <button class="type-btn" onclick="setTypeFilter('tool')">🔧 أدوات</button>
+      <button class="type-btn" onclick="setTypeFilter('website')">🌐 مواقع</button>
+      <button class="type-btn" onclick="setTypeFilter('app')">📱 تطبيقات</button>
+    </div>
+  </section>
+
+  <!-- === Category Filters === -->
+  <section class="container">
+    <div class="filters" id="filtersContainer">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- === Trending Section === -->
+  <section class="container" id="trendingSection" style="display: none;">
+    <div
+      style="font-size: 1.2rem; font-weight: 700; color: var(--accent); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+      <span style="font-size: 1.4rem;">🔥</span> أدوات الأسبوع
+    </div>
+    <div class="tools-grid" id="trendingGrid"
+      style="margin-bottom: 32px; border: 2px solid rgba(249, 115, 22, 0.2); box-shadow: var(--shadow-md);">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- === Tools Grid === -->
+  <section class="container">
+    <div class="tools-header">
+      <span class="tools-count" id="toolsCount"></span>
+    </div>
+    <div class="tools-grid" id="toolsGrid">
+      <!-- Populated by JS -->
+    </div>
+    <div class="no-results" id="noResults" style="display:none;">
+      <div class="emoji">🔍</div>
+      <p>لم نجد أدوات تطابق بحثك. جرّب كلمة أخرى!</p>
+    </div>
+  </section>
+
+  <!-- === Newsletter === -->
+  <section class="newsletter" id="newsletter">
+    <div class="container">
+      <h2>لا تبحث عن الأدوات الذكية — فهي تعرف طريقها إليك</h2>
+      <p>أحدث أدوات الذكاء الاصطناعي تصل بريدك فور إضافتها مباشرة.</p>
+      <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+      <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <iframe src="https://subscribe-forms.beehiiv.com/6a686dee-1420-4875-81e0-a3b026fe6f48" class="beehiiv-embed"
+          data-test-id="beehiiv-embed" frameborder="0" scrolling="no"
+          style="width: 420px; height: 80px; background-color: transparent; border: none; max-width: 100%;"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- === Footer === -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand" dir="ltr">Build<span>It</span>ByAI</div>
+      <div class="footer-disclosure-box">
+        <p class="footer-disclosure-text">
+          💛 شفافيتنا هي نبراسنا: نحن نجتهد بالبحث في عالم الذكاء الاصطناعي، لتقديم المحتوى مجاناً وبأعلى جودة،
+          <strong>دعمك لنا دون أي تكلفة إضافية عليك</strong> بالتسجيل أو الشراء عبر بعض الروابط الموجودة في هذا الدليل
+          يمنحنا عمولة تسويقية تساعدنا في تحمل تكاليف الموقع واستمراره.
+        </p>
+      </div>
+      <div class="footer-policies">
+        <a href="/">الرئيسية</a>
+        <a href="/about.html">من نحن</a>
+        <a href="/privacy.html">سياسة الخصوصية</a>
+        <a href="/terms.html">شروط الاستخدام</a>
+        <a href="/disclaimer.html">إخلاء المسؤولية</a>
+      </div>
+      <p class="footer-copyright">© 2026 BuildItByAI — جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="neural-bg.js"></script>
+  <script src="tools-data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

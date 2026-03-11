@@ -1,0 +1,16 @@
+{
+    "short_name": "BuildItByAI",
+    "name": "BuildItByAI — دليلك العربي لأدوات الذكاء الاصطناعي",
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#0f172a",
+    "display": "standalone",
+    "theme_color": "#f97316",
+    "description": "اكتشف، قارن، وابنِ مشروعك بالذكاء الاصطناعي."
+}

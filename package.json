@@ -1,0 +1,13 @@
+{
+  "name": "builditbyai",
+  "version": "1.0.0",
+  "description": "BuildItByAI — الدليل العربي الشامل لأدوات الذكاء الاصطناعي",
+  "scripts": {
+    "build:pages": "node build-pages.js",
+    "build:sitemap": "node generate-sitemap.js",
+    "build:csv": "node export-csv.js",
+    "build:logos": "node download-logos.js",
+    "build": "node build-pages.js && node generate-sitemap.js"
+  },
+  "private": true
+}

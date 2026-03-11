@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>خيارات تصميم الإفصاح</title>
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --accent: #f97316;
+            --border: #e2e8f0;
+            --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            font-family: var(--font);
+            background: #f1f5f9;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--accent);
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            border-bottom: 1px dashed #cbd5e1;
+            padding-bottom: 10px;
+        }
+
+        /* Base Disclosure Text */
+        .text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .text strong {
+            color: var(--accent);
+        }
+
+        /* Option 1: Subtle Right Border */
+        .opt1 {
+            padding: 16px 20px;
+            background: #fff;
+            border-right: 4px solid var(--accent);
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            border-left: 1px solid var(--border);
+        }
+
+        /* Option 2: Soft Orange Background */
+        .opt2 {
+            padding: 20px;
+            background: #fff7ed;
+            /* orange-50 */
+            border: 1px solid #ffedd5;
+            /* orange-100 */
+            border-radius: 12px;
+            color: #9a3412;
+            /* orange-800 */
+        }
+
+        .opt2 .text {
+            color: #9a3412;
+        }
+
+        .opt2 .text strong {
+            color: #ea580c;
+        }
+
+        /* Option 3: Modern Gradient Soft */
+        .opt3 {
+            padding: 2px;
+            background: linear-gradient(135deg, var(--accent), #fcd34d);
+            border-radius: 12px;
+        }
+
+        .opt3-inner {
+            background: #fff;
+            padding: 18px;
+            border-radius: 10px;
+        }
+
+        /* Option 4: Top Accent Line */
+        .opt4 {
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-top: 4px solid var(--accent);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Option 5: Dashed Border */
+        .opt5 {
+            padding: 20px;
+            background: transparent;
+            border: 2px dashed #fdba74;
+            /* orange-300 */
+            border-radius: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>الخيار الأول: شريط جانبي (رسمي وأنيق)</h2>
+        <div class="opt1">
+            <p class="text">
+                💛 شفافيتنا هي نبراسنا: نحن نجتهد بالبحث في عالم الذكاء الاصطناعي لتقديم المحتوى مجاناً. <strong>دعمك
+                    لنا</strong> بالتسجيل أو الشراء عبر بعض الروابط <strong>دون أي تكلفة إضافية عليك</strong> يساعدنا في
+                تحمل تكاليف الموقع واستمراره.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>الخيار الثاني: خلفية برتقالية باهتة (هادئ ومريح للعين)</h2>
+        <div class="opt2">
+            <p class="text">
+                💛 شفافيتنا هي نبراسنا: نحن نجتهد بالبحث في عالم الذكاء الاصطناعي لتقديم المحتوى مجاناً. <strong>دعمك
+                    لنا</strong> بالتسجيل أو الشراء عبر بعض الروابط <strong>دون أي تكلفة إضافية عليك</strong> يساعدنا في
+                تحمل تكاليف الموقع واستمراره.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>الخيار الثالث: إطار متدرج الألوان (مبتكر وجذاب)</h2>
+        <div class="opt3">
+            <div class="opt3-inner">
+                <p class="text">
+                    💛 شفافيتنا هي نبراسنا: نحن نجتهد بالبحث في عالم الذكاء الاصطناعي لتقديم المحتوى مجاناً.
+                    <strong>دعمك لنا</strong> بالتسجيل أو الشراء عبر بعض الروابط <strong>دون أي تكلفة إضافية
+                        عليك</strong> يساعدنا في تحمل تكاليف الموقع واستمراره.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>الخيار الرابع: خط علوي بارز مع خلفية رمادية (احترافي جداً)</h2>
+        <div class="opt4">
+            <p class="text" style="text-align: center;">
+                💛 شفافيتنا هي نبراسنا: نحن نجتهد بالبحث في عالم الذكاء الاصطناعي لتقديم المحتوى مجاناً. <strong>دعمك
+                    لنا</strong> بالتسجيل أو الشراء عبر بعض الروابط <strong>دون أي تكلفة إضافية عليك</strong> يساعدنا في
+                تحمل تكاليف الموقع واستمراره.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>الخيار الخامس: إطار متقطع شفاف (ودود وقريب للقلب)</h2>
+        <div class="opt5">
+            <p class="text">
+                💛 شفافيتنا هي نبراسنا: نحن نجتهد بالبحث في عالم الذكاء الاصطناعي لتقديم المحتوى مجاناً. <strong>دعمك
+                    لنا</strong> بالتسجيل أو الشراء عبر بعض الروابط <strong>دون أي تكلفة إضافية عليك</strong> يساعدنا في
+                تحمل تكاليف الموقع واستمراره.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
