@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const domain = 'https://builditbyai.com'; // Replace with actual domain when launching
+const domain = 'https://builditbyai.com/'; // Replace with actual domain when launching
 
 // Read tools data
 let content = fs.readFileSync('tools-data.js', 'utf8');
