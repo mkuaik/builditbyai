@@ -82,7 +82,7 @@ const template = (tool, relatedTools) => `<!DOCTYPE html>
     
     <article style="background:var(--bg-card); padding: 40px; border-radius: var(--radius-xl); box-shadow: var(--shadow-md); border: 1px solid var(--border);">
       <header style="display:flex;align-items:center;gap:20px;margin-bottom:24px;">
-        <img src="${tool.logo}" alt="${tool.name}" 
+        <img src="${tool.logo.replace('./', '../')}" alt="${tool.name}" 
              style="width:80px;height:80px;border-radius:var(--radius-lg);border:1px solid var(--border);background:#fff; object-fit: contain; padding: 6px;"
              onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 72 72%22><rect fill=%22%23f1f5f9%22 width=%2272%22 height=%2272%22 rx=%2214%22/><text x=%2236%22 y=%2246%22 text-anchor=%22middle%22 font-size=%2228%22>🤖</text></svg>'">
         <div>
@@ -123,7 +123,7 @@ const template = (tool, relatedTools) => `<!DOCTYPE html>
                  transition:all 0.2s ease;text-decoration:none;color:inherit; box-shadow: var(--shadow-sm);"
                  onmouseover="this.style.transform='translateY(-2px)'"
                  onmouseout="this.style.transform='none'">
-              <img src="${alt.logo}" alt="${alt.name}" 
+              <img src="${alt.logo.replace('./', '../')}" alt="${alt.name}" 
                    style="width:48px;height:48px;border-radius:12px;border:1px solid var(--border); background:#fff; padding:4px;"
                    onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 36 36%22><rect fill=%22%23f1f5f9%22 width=%2236%22 height=%2236%22 rx=%228%22/><text x=%2218%22 y=%2224%22 text-anchor=%22middle%22 font-size=%2214%22>🤖</text></svg>'">
               <div style="min-width:0;">

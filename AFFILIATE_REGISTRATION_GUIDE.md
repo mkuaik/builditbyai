@@ -31,7 +31,7 @@
 | **SurferSEO** | [Register Here](https://surferseo.com/affiliate/) | [ ] لم يبدأ | عمولة CPA ضخمة |
 | **Synthesia** | [Register Here](https://www.synthesia.io/affiliate-program) | [ ] لم يبدأ | اشتراكات غالية |
 | **HeyGen** | [Register Here](https://www.heygen.com/affiliate) | [ ] لم يبدأ | ترند الترجمة |
-| **Taskade** | [Register Here](https://www.taskade.com/affiliates) | [ ] لم يبدأ | عمولة لمدى الحياة |
+| **Taskade** | [Register Here](https://www.taskade.com/affiliates) | [x] مقبول ✅ | عمولة لمدى الحياة |
 | **Murf AI** | [Register Here](https://murf.ai/affiliate) | [ ] لم يبدأ | عقود شركات |
 | **Chatbase** | [Register Here](https://www.chatbase.co/affiliate) | [ ] لم يبدأ | حلول بزنس |
 | **Canva** | [Register Here](https://www.canva.com/affiliates/) | [ ] لم يبدأ | سهلة الإقناع |

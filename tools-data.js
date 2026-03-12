@@ -689,7 +689,7 @@ const TOOLS_DATA = [
       "تنظيم"
     ],
     "price": "خطة مجانية، والمدفوع 4$",
-    "affiliateLink": "https://taskade.com/?ref=builditbyai",
+    "affiliateLink": "https://www.taskade.com/?via=hwwx45",
     "hasAffiliate": true,
     "type": "app",
     "fullReview": "تاسك إيد (Taskade) هي أداة رائعة تجمع مهام الفريق، المحادثة، والملاحظات في بيئة واحدة ذكية متكاملة. ما يميزها مؤخراً هي توفير إمكانية بناء مستشارين ذكاء اصطناعي خاصين بك، تضع لهم دوراً وهدفاً، ليعملوا معك كعضو في الفريق لكتابة وتحليل سير العمل باستمرار."
