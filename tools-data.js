@@ -2,7 +2,7 @@ const TOOLS_DATA = [
   {
     "id": "chatgpt",
     "name": "ChatGPT",
-    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "logo": "./images/logos/chatgpt.png",
     "shortDesc": "المساعد الذكي الأشهر عالمياً للمحادثة والإنتاجية.",
     "category": "مساعدات ذكية",
     "tags": [
@@ -20,7 +20,7 @@ const TOOLS_DATA = [
   {
     "id": "midjourney",
     "name": "Midjourney",
-    "logo": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=128",
+    "logo": "./images/logos/midjourney.png",
     "shortDesc": "توليد صور فنية مذهلة بأوامر نصية بسيطة.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -37,7 +37,7 @@ const TOOLS_DATA = [
   {
     "id": "gemini",
     "name": "Google Gemini",
-    "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+    "logo": "./images/logos/gemini.png",
     "shortDesc": "مساعد جوجل الذكي المتصل بخدمات جوجل كاملة.",
     "category": "مساعدات ذكية",
     "tags": [
@@ -55,7 +55,7 @@ const TOOLS_DATA = [
   {
     "id": "jasper",
     "name": "Jasper",
-    "logo": "https://www.google.com/s2/favicons?domain=jasper.ai&sz=128",
+    "logo": "./images/logos/jasper.png",
     "shortDesc": "مساعد كتابة قوي للمسوقين وصناع المحتوى.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -73,7 +73,7 @@ const TOOLS_DATA = [
   {
     "id": "framer",
     "name": "Framer",
-    "logo": "https://www.google.com/s2/favicons?domain=framer.com&sz=128",
+    "logo": "./images/logos/framer.png",
     "shortDesc": "تصميم وتطوير مواقع احترافية بسرعة مذهلة.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -91,7 +91,7 @@ const TOOLS_DATA = [
   {
     "id": "synthesia",
     "name": "Synthesia",
-    "logo": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=128",
+    "logo": "./images/logos/synthesia.png",
     "shortDesc": "توليد مقاطع فيديو بشخصيات افتراضية واقعية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -109,7 +109,7 @@ const TOOLS_DATA = [
   {
     "id": "notion",
     "name": "Notion",
-    "logo": "https://www.google.com/s2/favicons?domain=notion.so&sz=128",
+    "logo": "./images/logos/notion.png",
     "shortDesc": "مساحة عمل متكاملة مع مساعد ذكي للمهام.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -127,7 +127,7 @@ const TOOLS_DATA = [
   {
     "id": "canva",
     "name": "Canva",
-    "logo": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "logo": "./images/logos/canva.png",
     "shortDesc": "تصميم الجرافيك المدعوم بأدوات توليد الصور.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -145,7 +145,7 @@ const TOOLS_DATA = [
   {
     "id": "descript",
     "name": "Descript",
-    "logo": "https://www.google.com/s2/favicons?domain=descript.com&sz=128",
+    "logo": "./images/logos/descript.png",
     "shortDesc": "تحرير الصوت والفيديو كأنك تعدل مستند نصي.",
     "category": "صوت وفيديو",
     "tags": [
@@ -163,7 +163,7 @@ const TOOLS_DATA = [
   {
     "id": "surferseo",
     "name": "SurferSEO",
-    "logo": "https://www.google.com/s2/favicons?domain=surferseo.com&sz=128",
+    "logo": "./images/logos/surferseo.png",
     "shortDesc": "تحسين محركات البحث وكتابة المحتوى المتصدر.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -181,7 +181,7 @@ const TOOLS_DATA = [
   {
     "id": "copyai",
     "name": "Copy.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=copy.ai&sz=128",
+    "logo": "./images/logos/copyai.png",
     "shortDesc": "خيارات غير محدودة لكتابة الإعلانات والمنشورات.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -199,7 +199,7 @@ const TOOLS_DATA = [
   {
     "id": "writesonic",
     "name": "Writesonic",
-    "logo": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128",
+    "logo": "./images/logos/writesonic.png",
     "shortDesc": "تأليف المقالات الطويلة بدقة وسرعة عالية.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -217,7 +217,7 @@ const TOOLS_DATA = [
   {
     "id": "murfai",
     "name": "Murf.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=murf.ai&sz=128",
+    "logo": "./images/logos/murfai.png",
     "shortDesc": "تحويل النصوص إلى أصوات بشرية طبيعية باحترافية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -234,7 +234,7 @@ const TOOLS_DATA = [
   {
     "id": "clickup",
     "name": "ClickUp",
-    "logo": "https://www.google.com/s2/favicons?domain=clickup.com&sz=128",
+    "logo": "./images/logos/clickup.png",
     "shortDesc": "تطبيق شامل لإدارة سير العمل بذكاء اصطناعي مدمج.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -252,7 +252,7 @@ const TOOLS_DATA = [
   {
     "id": "looka",
     "name": "Looka",
-    "logo": "https://www.google.com/s2/favicons?domain=looka.com&sz=128",
+    "logo": "./images/logos/looka.png",
     "shortDesc": "توليد شعارات وتصاميم الهوية التجارية فوراً.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -269,7 +269,7 @@ const TOOLS_DATA = [
   {
     "id": "beehiiv",
     "name": "Beehiiv",
-    "logo": "https://www.google.com/s2/favicons?domain=beehiiv.com&sz=128",
+    "logo": "./images/logos/beehiiv.png",
     "shortDesc": "منصة النشرات البريدية الحديثة والنمو السريع.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -279,7 +279,7 @@ const TOOLS_DATA = [
       "محتوى"
     ],
     "price": "خطة مجانية، والمدفوع 39$",
-    "affiliateLink": "https://www.beehiiv.com?via=builditbyai",
+    "affiliateLink": "https://beehiiv.com/?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "بيهايف (Beehiiv) صُممت كمنصة عصرية لإطلاق وإدارة النشرات البريدية (Newsletters). تدمج ميزات الذكاء الاصطناعي لتوليد العناوين وصياغة المحتوى واقتراح أفكار للنشرة. توفر ميزات مدمجة للنمو كبرنامج الإحالة بين القراء وتوصيات من نشرات أخرى. بها خطة مجانية قوية تدعم حتى 2500 مشترك. الخيار المثالي لصناع المحتوى المتجهين نحو بناء وسائل إعلامية مستقلة."
@@ -287,7 +287,7 @@ const TOOLS_DATA = [
   {
     "id": "chatbase",
     "name": "Chatbase",
-    "logo": "https://www.google.com/s2/favicons?domain=chatbase.co&sz=128",
+    "logo": "./images/logos/chatbase.png",
     "shortDesc": "إنشاء بوت محادثة ذكي مخصص لموقعك ببياناتك.",
     "category": "دعم العملاء",
     "tags": [
@@ -305,7 +305,7 @@ const TOOLS_DATA = [
   {
     "id": "elevenlabs",
     "name": "ElevenLabs",
-    "logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+    "logo": "./images/logos/elevenlabs.png",
     "shortDesc": "توليد الأصوات والاستنساخ الأقرب للواقع.",
     "category": "صوت وفيديو",
     "tags": [
@@ -323,7 +323,7 @@ const TOOLS_DATA = [
   {
     "id": "miro",
     "name": "Miro",
-    "logo": "https://www.google.com/s2/favicons?domain=miro.com&sz=128",
+    "logo": "./images/logos/miro.png",
     "shortDesc": "لوحتك التعاونية الذكية للعصف الذهني والتنظيم.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -341,7 +341,7 @@ const TOOLS_DATA = [
   {
     "id": "pictory",
     "name": "Pictory",
-    "logo": "https://www.google.com/s2/favicons?domain=pictory.ai&sz=128",
+    "logo": "./images/logos/pictory.png",
     "shortDesc": "تحويل المقالات إلى مقاطع فيديو تفاعلية للنشر.",
     "category": "صوت وفيديو",
     "tags": [
@@ -359,7 +359,7 @@ const TOOLS_DATA = [
   {
     "id": "leonardoai",
     "name": "Leonardo.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=128",
+    "logo": "./images/logos/leonardoai.png",
     "shortDesc": "توليد الصور الفنية والتصاميم بجودة تنافس الجميع.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -377,7 +377,7 @@ const TOOLS_DATA = [
   {
     "id": "grammarly",
     "name": "Grammarly",
-    "logo": "https://www.google.com/s2/favicons?domain=grammarly.com&sz=128",
+    "logo": "./images/logos/grammarly.png",
     "shortDesc": "مصحح النصوص والمساعد الاحترافي بالذكاء التوليدي.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -395,7 +395,7 @@ const TOOLS_DATA = [
   {
     "id": "tome",
     "name": "Tome",
-    "logo": "https://www.google.com/s2/favicons?domain=tome.app&sz=128",
+    "logo": "./images/logos/tome.png",
     "shortDesc": "بناء العروض التقديمية التفاعلية والسرد القصصي آلياً.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -413,7 +413,7 @@ const TOOLS_DATA = [
   {
     "id": "invideo",
     "name": "InVideo AI",
-    "logo": "https://www.google.com/s2/favicons?domain=invideo.io&sz=128",
+    "logo": "./images/logos/invideo.png",
     "shortDesc": "صناعة فيديو كامل من مجرد مطالبة نصية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -431,7 +431,7 @@ const TOOLS_DATA = [
   {
     "id": "heygen",
     "name": "HeyGen",
-    "logo": "https://www.google.com/s2/favicons?domain=heygen.com&sz=128",
+    "logo": "./images/logos/heygen.png",
     "shortDesc": "مونتاج وترجمة الفيديوهات بوجوه وأصوات اصطناعية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -449,7 +449,7 @@ const TOOLS_DATA = [
   {
     "id": "runwayml",
     "name": "Runway ML",
-    "logo": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
+    "logo": "./images/logos/runwayml.png",
     "shortDesc": "محرر فيديو ذكاء اصطناعي بخيارات سينمائية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -467,7 +467,7 @@ const TOOLS_DATA = [
   {
     "id": "fliki",
     "name": "Fliki",
-    "logo": "https://www.google.com/s2/favicons?domain=fliki.ai&sz=128",
+    "logo": "./images/logos/fliki.png",
     "shortDesc": "تحويل النص إلى فيديوهات مع تعليق صوتي واقعي.",
     "category": "صوت وفيديو",
     "tags": [
@@ -485,7 +485,7 @@ const TOOLS_DATA = [
   {
     "id": "basedlabs",
     "name": "BasedLabs AI",
-    "logo": "https://www.google.com/s2/favicons?domain=basedlabs.ai&sz=128",
+    "logo": "./images/logos/basedlabs.png",
     "shortDesc": "منصة لتوليد صور وفيديوهات إبداعية وخيالية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -502,7 +502,7 @@ const TOOLS_DATA = [
   {
     "id": "lovo",
     "name": "Lovo AI",
-    "logo": "https://www.google.com/s2/favicons?domain=lovo.ai&sz=128",
+    "logo": "./images/logos/lovo.png",
     "shortDesc": "منصة توليد صوتيات بلمسة احترافية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -520,7 +520,7 @@ const TOOLS_DATA = [
   {
     "id": "podcastle",
     "name": "Podcastle",
-    "logo": "https://www.google.com/s2/favicons?domain=podcastle.ai&sz=128",
+    "logo": "./images/logos/podcastle.png",
     "shortDesc": "أستوديو بودكاست متكامل بالذكاء الاصطناعي.",
     "category": "صوت وفيديو",
     "tags": [
@@ -538,7 +538,7 @@ const TOOLS_DATA = [
   {
     "id": "rytr",
     "name": "Rytr",
-    "logo": "https://www.google.com/s2/favicons?domain=rytr.me&sz=128",
+    "logo": "./images/logos/rytr.png",
     "shortDesc": "أداة كتابة تناسب المبتدئين باشتراك اقتصادي.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -556,7 +556,7 @@ const TOOLS_DATA = [
   {
     "id": "koala",
     "name": "Koala AI",
-    "logo": "https://www.google.com/s2/favicons?domain=koala.sh&sz=128",
+    "logo": "./images/logos/koala.png",
     "shortDesc": "كتابة مقالات جاهزة وعالية الجودة متوافقة مع SEO.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -573,7 +573,7 @@ const TOOLS_DATA = [
   {
     "id": "frase",
     "name": "Frase",
-    "logo": "https://www.google.com/s2/favicons?domain=frase.io&sz=128",
+    "logo": "./images/logos/frase.png",
     "shortDesc": "كتابة وتحليل محتوى متوافق مع SEO بدقة عالية.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -590,7 +590,7 @@ const TOOLS_DATA = [
   {
     "id": "scalenut",
     "name": "Scalenut",
-    "logo": "https://www.google.com/s2/favicons?domain=scalenut.com&sz=128",
+    "logo": "./images/logos/scalenut.png",
     "shortDesc": "أداة بحث وكتابة لتصدر نتائج محركات البحث.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -607,7 +607,7 @@ const TOOLS_DATA = [
   {
     "id": "semrush",
     "name": "Semrush",
-    "logo": "https://www.google.com/s2/favicons?domain=semrush.com&sz=128",
+    "logo": "./images/logos/semrush.png",
     "shortDesc": "المارد الشامل والأكثر موثوقية لمسوقي الإنترنت.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -625,7 +625,7 @@ const TOOLS_DATA = [
   {
     "id": "nightcafe",
     "name": "NightCafe",
-    "logo": "https://www.google.com/s2/favicons?domain=nightcafe.studio&sz=128",
+    "logo": "./images/logos/nightcafe.png",
     "shortDesc": "ستوديو فنون ومجتمعات التصميم بالذكاء الاصطناعي.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -643,7 +643,7 @@ const TOOLS_DATA = [
   {
     "id": "adcreative",
     "name": "AdCreative",
-    "logo": "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=128",
+    "logo": "./images/logos/adcreative.png",
     "shortDesc": "تصميم بانرات إعلانية تحول النقرات إلى مبيعات.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -661,7 +661,7 @@ const TOOLS_DATA = [
   {
     "id": "kittl",
     "name": "Kittl",
-    "logo": "https://www.google.com/s2/favicons?domain=kittl.com&sz=128",
+    "logo": "./images/logos/kittl.png",
     "shortDesc": "تصميم شعارات وتصاميم للطباعة بضغطة زر.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -679,7 +679,7 @@ const TOOLS_DATA = [
   {
     "id": "taskade",
     "name": "Taskade",
-    "logo": "https://www.google.com/s2/favicons?domain=taskade.com&sz=128",
+    "logo": "./images/logos/taskade.png",
     "shortDesc": "مساحة عمل تعاونية تدار بوكلاء الذكاء الاصطناعي.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -697,7 +697,7 @@ const TOOLS_DATA = [
   {
     "id": "repurposeio",
     "name": "Repurpose.io",
-    "logo": "https://www.google.com/s2/favicons?domain=repurpose.io&sz=128",
+    "logo": "./images/logos/repurposeio.png",
     "shortDesc": "إعادة نشر الفيديوهات لحساباتك الاجتماعية آلياً.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -715,7 +715,7 @@ const TOOLS_DATA = [
   {
     "id": "claude",
     "name": "Claude",
-    "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "logo": "./images/logos/claude.png",
     "shortDesc": "المنافس العملاق الشرس، رائع للبرمجة وكتابة النصوص.",
     "category": "مساعدات ذكية",
     "tags": [
@@ -733,7 +733,7 @@ const TOOLS_DATA = [
   {
     "id": "perplexity",
     "name": "Perplexity AI",
-    "logo": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128",
+    "logo": "./images/logos/perplexity.png",
     "shortDesc": "محرك بحث بحثي متطور موثق بمصادر الإجابات.",
     "category": "مساعدات ذكية",
     "tags": [
@@ -751,7 +751,7 @@ const TOOLS_DATA = [
   {
     "id": "otter",
     "name": "Otter.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=otter.ai&sz=128",
+    "logo": "./images/logos/otter.png",
     "shortDesc": "تفريغ الاجتماعات وتلخيصها وتحديد مهام العمل منها تلقائيا.",
     "category": "مساعدات ذكية",
     "tags": [
@@ -769,7 +769,7 @@ const TOOLS_DATA = [
   {
     "id": "mixo",
     "name": "Mixo.io",
-    "logo": "https://www.google.com/s2/favicons?domain=mixo.io&sz=128",
+    "logo": "./images/logos/mixo.png",
     "shortDesc": "أطلق موقع شركتك وموقع هبوطك في دقيقة واحدة.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -786,7 +786,7 @@ const TOOLS_DATA = [
   {
     "id": "10web",
     "name": "10Web",
-    "logo": "https://www.google.com/s2/favicons?domain=10web.io&sz=128",
+    "logo": "./images/logos/10web.png",
     "shortDesc": "تصميم ووردبريس ومحاكاته سريعاً وآلياً.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -804,7 +804,7 @@ const TOOLS_DATA = [
   {
     "id": "getresponse",
     "name": "GetResponse",
-    "logo": "https://www.google.com/s2/favicons?domain=getresponse.com&sz=128",
+    "logo": "./images/logos/getresponse.png",
     "shortDesc": "منصة شاملة للتسويق بالبريد بقوى اصطناعية.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -822,7 +822,7 @@ const TOOLS_DATA = [
   {
     "id": "hubspot",
     "name": "HubSpot",
-    "logo": "https://www.google.com/s2/favicons?domain=hubspot.com&sz=128",
+    "logo": "./images/logos/hubspot.png",
     "shortDesc": "نظام علاقات العملاء وإدارة الزوار الأقوى حول العالم.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -840,7 +840,7 @@ const TOOLS_DATA = [
   {
     "id": "cursor",
     "name": "Cursor",
-    "logo": "https://www.google.com/s2/favicons?domain=cursor.sh&sz=128",
+    "logo": "./images/logos/cursor.png",
     "shortDesc": "أفضل وأشهر محرر أكواد ذكي يكتب الشيفرات عنك.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -850,7 +850,7 @@ const TOOLS_DATA = [
       "أكواد"
     ],
     "price": "خطة مجانية، والمدفوع 20$",
-    "affiliateLink": "https://cursor.com",
+    "affiliateLink": "https://cursor.com/?ref=builditbyai",
     "hasAffiliate": false,
     "type": "app",
     "fullReview": "يعد (Cursor) حالياً المحرر البرمجي رقم واحد الذي يعشقه كل مطور. تم بناء الكيرسور بجوهر VS Code ليكون خفيفاً وسهلاً، إلا أنه مجهز بذكاء اصطناعي داخلي مذهل قادر على قراءة كل ملفات المشروع وكتابة وتصحيح واقتراح الأكواد بفاعلية غير مسبوقة!."
@@ -858,7 +858,7 @@ const TOOLS_DATA = [
   {
     "id": "v0",
     "name": "v0 by Vercel",
-    "logo": "https://www.google.com/s2/favicons?domain=vercel.com&sz=128",
+    "logo": "./images/logos/v0.png",
     "shortDesc": "توليد واجهات استخدام ومكونات رياكت بالمحادثة.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -868,7 +868,7 @@ const TOOLS_DATA = [
       "رياكت"
     ],
     "price": "خطة مجانية، والمدفوع 20$",
-    "affiliateLink": "https://v0.dev",
+    "affiliateLink": "https://v0.dev/?ref=builditbyai",
     "hasAffiliate": false,
     "type": "tool",
     "fullReview": "أداة (v0) المذهلة من تطوير Vercel هي حلم مطوري الواجهات الأمامية. تعطيها أمراً بوصف الواجهة (مثل: أريد صفحة مدير تعرض إحصائيات مستودع باللون الأسود)، والمنصة تولد فوراً أكواد React أو HTML مع CSS بتصميم أنيق جاهز للنسخ في مشاريعك."
@@ -876,7 +876,7 @@ const TOOLS_DATA = [
   {
     "id": "copilot",
     "name": "GitHub Copilot",
-    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "logo": "./images/logos/copilot.png",
     "shortDesc": "رفيق المبرمج من مايكروسوفت لكتابة الكود لحظيا.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -886,7 +886,7 @@ const TOOLS_DATA = [
       "بيثون"
     ],
     "price": "رسوم اشتراك 10$ / شهر",
-    "affiliateLink": "https://github.com/features/copilot",
+    "affiliateLink": "https://github.com/features/copilot?ref=builditbyai",
     "hasAffiliate": false,
     "type": "tool",
     "fullReview": "جيت هاب كوبايلوت (GitHub Copilot) يعد رائد ثورة البرمجة الذكية، يندمج في محرر الأكواد ليقترح وظائف كاملة (Functions) بناءً على ما تكتبه في التعليقات أو بناءً على الدالة التي تبنيها. ساعد في تقليص وقت كتابة الأكواد التقليدية والمعتادة للمطورين لأكثر من 50%."
@@ -894,7 +894,7 @@ const TOOLS_DATA = [
   {
     "id": "customgpt",
     "name": "CustomGPT.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=customgpt.ai&sz=128",
+    "logo": "./images/logos/customgpt.png",
     "shortDesc": "بوتات محادثة مبنية خصيصاً بمعلومات شركتك الخاصة.",
     "category": "دعم العملاء",
     "tags": [
@@ -911,7 +911,7 @@ const TOOLS_DATA = [
   {
     "id": "dante",
     "name": "Dante AI",
-    "logo": "https://www.google.com/s2/favicons?domain=dante-ai.com&sz=128",
+    "logo": "./images/logos/dante.png",
     "shortDesc": "أنشئ وكيل أعمال يجيب على تساؤلات عملائك لحظيا.",
     "category": "دعم العملاء",
     "tags": [
@@ -928,7 +928,7 @@ const TOOLS_DATA = [
   {
     "id": "manychat",
     "name": "ManyChat",
-    "logo": "https://www.google.com/s2/favicons?domain=manychat.com&sz=128",
+    "logo": "./images/logos/manychat.png",
     "shortDesc": "أتمتة وحوش المبيعات على الماسنجر وانستجرام.",
     "category": "دعم العملاء",
     "tags": [
@@ -946,7 +946,7 @@ const TOOLS_DATA = [
   {
     "id": "vidiq",
     "name": "VidIQ",
-    "logo": "https://www.google.com/s2/favicons?domain=vidiq.com&sz=128",
+    "logo": "./images/logos/vidiq.png",
     "shortDesc": "مرشد ومستشار يوتيوب لتحسين المشاهدات.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -964,7 +964,7 @@ const TOOLS_DATA = [
   {
     "id": "tripo",
     "name": "Tripo AI",
-    "logo": "https://www.google.com/s2/favicons?domain=tripo3d.ai&sz=128",
+    "logo": "./images/logos/tripo.png",
     "shortDesc": "توليد مجسمات 3D مذهلة في ثوان معدودة.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -982,7 +982,7 @@ const TOOLS_DATA = [
   {
     "id": "holo",
     "name": "Holo AI",
-    "logo": "https://www.google.com/s2/favicons?domain=holo.ai&sz=128",
+    "logo": "./images/logos/holo.png",
     "shortDesc": "منصة تسويقية شاملة لصناعة المحتوى التلقائي.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1000,7 +1000,7 @@ const TOOLS_DATA = [
   {
     "id": "gamma",
     "name": "Gamma App",
-    "logo": "https://www.google.com/s2/favicons?domain=gamma.app&sz=128",
+    "logo": "./images/logos/gamma.png",
     "shortDesc": "بناء وتصميم عروض PowerPoint ومواقع مبسطة بسرعة.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1018,7 +1018,7 @@ const TOOLS_DATA = [
   {
     "id": "trello",
     "name": "Trello AI",
-    "logo": "https://www.google.com/s2/favicons?domain=trello.com&sz=128",
+    "logo": "./images/logos/trello.png",
     "shortDesc": "إدارة مشاريع مرنة ولوحات كانبان مزودة بقدرات تحليل ذكية.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1035,7 +1035,7 @@ const TOOLS_DATA = [
   {
     "id": "slack",
     "name": "Slack AI",
-    "logo": "https://www.google.com/s2/favicons?domain=slack.com&sz=128",
+    "logo": "./images/logos/slack.png",
     "shortDesc": "تلخيص المحادثات الطويلة ونقاط العمل في منصة تواصل الشركات.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1053,7 +1053,7 @@ const TOOLS_DATA = [
   {
     "id": "zapier",
     "name": "Zapier",
-    "logo": "https://www.google.com/s2/favicons?domain=zapier.com&sz=128",
+    "logo": "./images/logos/zapier.png",
     "shortDesc": "ربط وأتمتة أكثر من 6000 تطبيق بسهولة تامة.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1071,7 +1071,7 @@ const TOOLS_DATA = [
   {
     "id": "superhuman",
     "name": "Superhuman AI",
-    "logo": "https://www.google.com/s2/favicons?domain=superhuman.com&sz=128",
+    "logo": "./images/logos/superhuman.png",
     "shortDesc": "عميل البريد الأسرع في العالم لمن يقدرون وقتهم.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1088,7 +1088,7 @@ const TOOLS_DATA = [
   {
     "id": "beautiful_ai",
     "name": "Beautiful.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=128",
+    "logo": "./images/logos/beautiful_ai.png",
     "shortDesc": "تصميم عروض تقديمية تتكيف ألوانها وصورها في ثواني.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1105,7 +1105,7 @@ const TOOLS_DATA = [
   {
     "id": "steve_ai",
     "name": "Steve AI",
-    "logo": "https://www.google.com/s2/favicons?domain=steve.ai&sz=128",
+    "logo": "./images/logos/steve_ai.png",
     "shortDesc": "صناعة فيديوهات الرسوم المتحركة والكرتون بضغطة زر.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1123,7 +1123,7 @@ const TOOLS_DATA = [
   {
     "id": "tubebuddy",
     "name": "TubeBuddy",
-    "logo": "https://www.google.com/s2/favicons?domain=tubebuddy.com&sz=128",
+    "logo": "./images/logos/tubebuddy.png",
     "shortDesc": "السكين السويسري لأصحاب قنوات اليوتيوب والنمو السريع.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1141,7 +1141,7 @@ const TOOLS_DATA = [
   {
     "id": "bhuman",
     "name": "BHuman",
-    "logo": "https://www.google.com/s2/favicons?domain=bhuman.ai&sz=128",
+    "logo": "./images/logos/bhuman.png",
     "shortDesc": "إرسال آلاف الفيديوهات المخصصة بالاسم لكل عميل.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1159,7 +1159,7 @@ const TOOLS_DATA = [
   {
     "id": "quillbot",
     "name": "Quillbot",
-    "logo": "https://www.google.com/s2/favicons?domain=quillbot.com&sz=128",
+    "logo": "./images/logos/quillbot.png",
     "shortDesc": "عملاق إعادة الصياغة والتلخيص المجاني.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1177,7 +1177,7 @@ const TOOLS_DATA = [
   {
     "id": "pika",
     "name": "Pika Labs",
-    "logo": "https://www.google.com/s2/favicons?domain=pika.art&sz=128",
+    "logo": "./images/logos/pika.png",
     "shortDesc": "محرك تصميم فيديو 3D وأنيميشن مبهر وسريع.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1194,7 +1194,7 @@ const TOOLS_DATA = [
   {
     "id": "vondy",
     "name": "Vondy",
-    "logo": "https://www.google.com/s2/favicons?domain=vondy.com&sz=128",
+    "logo": "./images/logos/vondy.png",
     "shortDesc": "منصة تجمع مئات أدوات الذكاء الاصطناعي في واجهة واحدة.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1211,7 +1211,7 @@ const TOOLS_DATA = [
   {
     "id": "tavily",
     "name": "Tavily",
-    "logo": "https://www.google.com/s2/favicons?domain=tavily.com&sz=128",
+    "logo": "./images/logos/tavily.png",
     "shortDesc": "محرك بحث بالذكاء الاصطناعي مخصص للمطورين.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -1229,7 +1229,7 @@ const TOOLS_DATA = [
   {
     "id": "gamma_app",
     "name": "Gamma.app",
-    "logo": "https://www.google.com/s2/favicons?domain=gamma.app&sz=128",
+    "logo": "./images/logos/gamma_app.png",
     "shortDesc": "عروض تقديمية (Presentations) مصممة باحترافية في ثوان.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1247,7 +1247,7 @@ const TOOLS_DATA = [
   {
     "id": "dante_chatbot",
     "name": "Dante Chatbot",
-    "logo": "https://www.google.com/s2/favicons?domain=dante-ai.com&sz=128",
+    "logo": "./images/logos/dante_chatbot.png",
     "shortDesc": "دعم فني عبر بوت محادثة لمتجرك وموقعك بدقائق.",
     "category": "دعم العملاء",
     "tags": [
@@ -1265,7 +1265,7 @@ const TOOLS_DATA = [
   {
     "id": "sora",
     "name": "OpenAI Sora",
-    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "logo": "./images/logos/sora.png",
     "shortDesc": "المشروع المرتقب القادر على توليد فيديو سينمائي مذهل.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1282,7 +1282,7 @@ const TOOLS_DATA = [
   {
     "id": "gong",
     "name": "Gong AI",
-    "logo": "https://www.google.com/s2/favicons?domain=gong.io&sz=128",
+    "logo": "./images/logos/gong.png",
     "shortDesc": "تحليل أداء فريق المبيعات والمكالمات في شركتك.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1300,7 +1300,7 @@ const TOOLS_DATA = [
   {
     "id": "phind",
     "name": "Phind",
-    "logo": "https://www.google.com/s2/favicons?domain=phind.com&sz=128",
+    "logo": "./images/logos/phind.png",
     "shortDesc": "محرك بحث مخصص للمبرمجين يعطيك الإجابة المباشرة بأكواد.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -1318,7 +1318,7 @@ const TOOLS_DATA = [
   {
     "id": "fathom",
     "name": "Fathom Notetaker",
-    "logo": "https://www.google.com/s2/favicons?domain=fathom.video&sz=128",
+    "logo": "./images/logos/fathom.png",
     "shortDesc": "مساعد تسجيل وتلخيص مجاني للاجتماعات بنقرة واحدة.",
     "category": "مساعدات ذكية",
     "tags": [
@@ -1336,7 +1336,7 @@ const TOOLS_DATA = [
   {
     "id": "blackbox",
     "name": "Blackbox AI",
-    "logo": "https://www.google.com/s2/favicons?domain=blackbox.ai&sz=128",
+    "logo": "./images/logos/blackbox.png",
     "shortDesc": "أداة نسخ واستخراج الأكواد من الفيديوهات والصور بضغطة.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -1354,7 +1354,7 @@ const TOOLS_DATA = [
   {
     "id": "opuspro",
     "name": "Opus Pro",
-    "logo": "https://www.google.com/s2/favicons?domain=opus.pro&sz=128",
+    "logo": "./images/logos/opuspro.png",
     "shortDesc": "الخبير الأول في اجتزاء وتطوير الفيديوهات القصيرة للسوشيال.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1372,7 +1372,7 @@ const TOOLS_DATA = [
   {
     "id": "dall_e",
     "name": "OpenAI DALL-E 3",
-    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "logo": "./images/logos/dall_e.png",
     "shortDesc": "محرك توليد الصور الشهير المدمج داخل ChatGPT.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -1389,7 +1389,7 @@ const TOOLS_DATA = [
   {
     "id": "hey",
     "name": "HeyEmail",
-    "logo": "https://www.google.com/s2/favicons?domain=hey.com&sz=128",
+    "logo": "./images/logos/hey.png",
     "shortDesc": "بريد إلكتروني يقرأ ويفهم الرسائل المزعجة ويرتبها بذكاء.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1406,7 +1406,7 @@ const TOOLS_DATA = [
   {
     "id": "vidstudio",
     "name": "Studio D-ID",
-    "logo": "https://www.google.com/s2/favicons?domain=d-id.com&sz=128",
+    "logo": "./images/logos/vidstudio.png",
     "shortDesc": "إعطاء الصور الثابتة روحا عبر تحريك الشفاه وتوليد الصوت.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1424,7 +1424,7 @@ const TOOLS_DATA = [
   {
     "id": "tome_present",
     "name": "Tome App",
-    "logo": "https://www.google.com/s2/favicons?domain=tome.app&sz=128",
+    "logo": "./images/logos/tome_present.png",
     "shortDesc": "أسرع طريقة لبناء عروض تقنع المستثمرين وعملائك بالذكاء.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1441,7 +1441,7 @@ const TOOLS_DATA = [
   {
     "id": "adcopy",
     "name": "AdCopy",
-    "logo": "https://www.google.com/s2/favicons?domain=adcopy.ai&sz=128",
+    "logo": "./images/logos/adcopy.png",
     "shortDesc": "توليد نصوص إعلانات جذابة مخصصة لعوائد إعلانات ضخمة.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1458,7 +1458,7 @@ const TOOLS_DATA = [
   {
     "id": "elephas",
     "name": "Elephas",
-    "logo": "https://www.google.com/s2/favicons?domain=elephas.app&sz=128",
+    "logo": "./images/logos/elephas.png",
     "shortDesc": "مساعد ذكي يرافقك في كل برامج وتطبيقات الماك (Mac).",
     "category": "مساعدات ذكية",
     "tags": [
@@ -1476,7 +1476,7 @@ const TOOLS_DATA = [
   {
     "id": "ai_lawyer",
     "name": "AI Lawyer",
-    "logo": "https://www.google.com/s2/favicons?domain=ailawyer.pro&sz=128",
+    "logo": "./images/logos/ai_lawyer.png",
     "shortDesc": "مستشارك القانوني السريع لإعطاء نصائح ومراجعة العقود.",
     "category": "دعم العملاء",
     "tags": [
@@ -1493,7 +1493,7 @@ const TOOLS_DATA = [
   {
     "id": "soundraw",
     "name": "Soundraw",
-    "logo": "https://www.google.com/s2/favicons?domain=soundraw.io&sz=128",
+    "logo": "./images/logos/soundraw.png",
     "shortDesc": "تأليف مقاطع موسيقية فريدة لا تخالف حقوق الملكية.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1511,7 +1511,7 @@ const TOOLS_DATA = [
   {
     "id": "murf_studio",
     "name": "Murf Studio",
-    "logo": "https://www.google.com/s2/favicons?domain=murf.ai&sz=128",
+    "logo": "./images/logos/murf_studio.png",
     "shortDesc": "صناعة تعليق صوتي منزلي احترافي بمستوى قنوات الأخبار.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1528,7 +1528,7 @@ const TOOLS_DATA = [
   {
     "id": "vidyo_ai",
     "name": "Vidyo.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=vidyo.ai&sz=128",
+    "logo": "./images/logos/vidyo_ai.png",
     "shortDesc": "صناعة محتوى قصير ورائع من مقاطع الفيديو الطويلة.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1546,7 +1546,7 @@ const TOOLS_DATA = [
   {
     "id": "postel",
     "name": "Postello",
-    "logo": "https://www.google.com/s2/favicons?domain=postello.ai&sz=128",
+    "logo": "./images/logos/postel.png",
     "shortDesc": "توليد ونشر آلي لمنشورات صفحات السوشيال ميديا.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1563,7 +1563,7 @@ const TOOLS_DATA = [
   {
     "id": "anyword",
     "name": "Anyword",
-    "logo": "https://www.google.com/s2/favicons?domain=anyword.com&sz=128",
+    "logo": "./images/logos/anyword.png",
     "shortDesc": "كتابة وتنبؤ بأداء رسائلك التسويقية لزيادة النقرات.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1579,7 +1579,7 @@ const TOOLS_DATA = [
   {
     "id": "fliki_ai",
     "name": "Fliki AI",
-    "logo": "https://www.google.com/s2/favicons?domain=fliki.ai&sz=128",
+    "logo": "./images/logos/fliki_ai.png",
     "shortDesc": "أسلس طريقة لتحويل المدوانات لمقاطع فيديو مربحة.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1596,7 +1596,7 @@ const TOOLS_DATA = [
   {
     "id": "spinrewriter",
     "name": "Spin Rewriter",
-    "logo": "https://www.google.com/s2/favicons?domain=spinrewriter.com&sz=128",
+    "logo": "./images/logos/spinrewriter.png",
     "shortDesc": "توليد مئات المقالات الحصرية من مقال واحد للـ SEO.",
     "category": "تحسين محركات البحث",
     "tags": [
@@ -1613,7 +1613,7 @@ const TOOLS_DATA = [
   {
     "id": "chat_simple",
     "name": "Chat Simple",
-    "logo": "https://www.google.com/s2/favicons?domain=chatsimple.ai&sz=128",
+    "logo": "./images/logos/chat_simple.png",
     "shortDesc": "وكيل افتراضي ذكي لموقعك يجيب ويتفاعل بذكاء.",
     "category": "دعم العملاء",
     "tags": [
@@ -1630,7 +1630,7 @@ const TOOLS_DATA = [
   {
     "id": "fireflies",
     "name": "Fireflies.ai",
-    "logo": "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=128",
+    "logo": "./images/logos/fireflies.png",
     "shortDesc": "مساعد صوتي ذكي يكتب محاضر كل اجتماعاتك بدقة.",
     "category": "إنتاجية وأعمال",
     "tags": [
@@ -1647,7 +1647,7 @@ const TOOLS_DATA = [
   {
     "id": "browse_ai",
     "name": "Browse AI",
-    "logo": "https://www.google.com/s2/favicons?domain=browse.ai&sz=128",
+    "logo": "./images/logos/browse_ai.png",
     "shortDesc": "تصفح وسحب البيانات من أي موقع إنترنت بدون كود.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -1664,7 +1664,7 @@ const TOOLS_DATA = [
   {
     "id": "11_labs",
     "name": "11Labs",
-    "logo": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+    "logo": "./images/logos/11_labs.png",
     "shortDesc": "مجتمع الأصوات الاحترافية والتقنية الأولى عالمياً.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1680,7 +1680,7 @@ const TOOLS_DATA = [
   {
     "id": "synthesia_ai",
     "name": "Synthesia AI",
-    "logo": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=128",
+    "logo": "./images/logos/synthesia_ai.png",
     "shortDesc": "فيديوهات بشخصيات واقعية للشركات.",
     "category": "صوت وفيديو",
     "tags": [
@@ -1695,7 +1695,7 @@ const TOOLS_DATA = [
   {
     "id": "canva_magic",
     "name": "Canva Magic",
-    "logo": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "logo": "./images/logos/canva_magic.png",
     "shortDesc": "أدوات التصميم السحرية المدمجة في كانفا.",
     "category": "تصميم وجرافيك",
     "tags": [
@@ -1711,7 +1711,7 @@ const TOOLS_DATA = [
   {
     "id": "koala_ai",
     "name": "Koala AI",
-    "logo": "https://www.google.com/s2/favicons?domain=koala.sh&sz=128",
+    "logo": "./images/logos/koala_ai.png",
     "shortDesc": "كتابة مقالات جاهزة لـ SEO بضغطة زر لنشرها مباشرة.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1728,7 +1728,7 @@ const TOOLS_DATA = [
   {
     "id": "humbot",
     "name": "Humbot",
-    "logo": "https://www.google.com/s2/favicons?domain=humbot.ai&sz=128",
+    "logo": "./images/logos/humbot.png",
     "shortDesc": "إعادة صياغة نصوص الذكاء الاصطناعي لتبدو بشرية لتخطي الفحوصات.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -1745,7 +1745,7 @@ const TOOLS_DATA = [
   {
     "id": "typeform_ai",
     "name": "Typeform AI",
-    "logo": "https://www.google.com/s2/favicons?domain=typeform.com&sz=128",
+    "logo": "./images/logos/typeform_ai.png",
     "shortDesc": "إنشاء استبيانات تفاعلية وذكية لجمع البيانات.",
     "category": "إنتاجية وأعمال",
     "tags": [
