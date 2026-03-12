@@ -3,7 +3,12 @@
     "name": "BuildItByAI — دليلك العربي لأدوات الذكاء الاصطناعي",
     "icons": [
         {
-            "src": "/favicon.png",
+            "src": "/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
