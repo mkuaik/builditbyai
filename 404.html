@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الصفحة المطلوبة غير موجودة — BuildItByAI">
+  <title>404 — الصفحة غير موجودة | BuildItByAI</title>
+  <meta name="robots" content="noindex">
+
+  <!-- Favicon & PWA -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4F0DNNBP1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-H4F0DNNBP1');
+  </script>
+</head>
+
+<body>
+
+  <!-- === Navbar === -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="logo" dir="ltr">
+        Build<span>It</span>ByAI
+      </a>
+      <div class="nav-actions">
+        <label class="theme-switch" for="themeToggle">
+          <input type="checkbox" id="themeToggle">
+          <span class="theme-slider"></span>
+          <span class="theme-label">الوضع الداكن</span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <!-- === 404 Content === -->
+  <section class="hero" style="padding: 80px 0 40px; min-height: 60vh; display: flex; align-items: center;">
+    <div class="container" style="text-align: center;">
+      <div style="font-size: 6rem; margin-bottom: 16px; line-height: 1;">🤖</div>
+      <h1 style="font-size: 3rem; font-weight: 700; margin-bottom: 16px;">
+        <span class="highlight">404</span>
+      </h1>
+      <p style="font-size: 1.3rem; color: var(--text-secondary); max-width: 500px; margin: 0 auto 12px;">
+        عذراً، الصفحة التي تبحث عنها غير موجودة أو تم نقلها.
+      </p>
+      <p style="font-size: 1rem; color: var(--text-muted); max-width: 450px; margin: 0 auto 32px;">
+        ربما تم تغيير الرابط أو حذف الصفحة. استخدم الرابط أدناه للعودة إلى الدليل.
+      </p>
+      <a href="/"
+        style="display: inline-block; padding: 14px 36px; background: var(--accent); color: #fff; border-radius: var(--radius-sm); font-weight: 700; font-size: 1.1rem; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(249,115,22,0.3);"
+        onmouseover="this.style.background='var(--accent-hover)'; this.style.transform='translateY(-2px)'"
+        onmouseout="this.style.background='var(--accent)'; this.style.transform='none'">
+        🏠 العودة للصفحة الرئيسية
+      </a>
+    </div>
+  </section>
+
+  <!-- === Footer === -->
+  <footer class="footer" style="margin-top: 56px;">
+    <div class="container">
+      <div class="footer-brand" dir="ltr">Build<span>It</span>ByAI</div>
+      <div class="footer-policies">
+        <a href="/">الرئيسية</a>
+        <a href="/about.html">من نحن</a>
+        <a href="/privacy.html">سياسة الخصوصية</a>
+        <a href="/terms.html">شروط الاستخدام</a>
+        <a href="/disclaimer.html">إخلاء المسؤولية</a>
+      </div>
+      <p class="footer-copyright">© 2026 BuildItByAI — جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="/neural-bg.js"></script>
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    themeToggle.checked = savedTheme === 'dark';
+    themeToggle.addEventListener('change', () => {
+      const next = themeToggle.checked ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  </script>
+</body>
+
+</html>

@@ -20,6 +20,7 @@ const template = (tool, relatedTools) => `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="${tool.shortDesc}">
+  <link rel="canonical" href="https://builditbyai.com/tools/${tool.id}.html">
   <title>${tool.name} — مراجعة شاملة | BuildItByAI</title>
   
   <!-- SEO Open Graph -->
