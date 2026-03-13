@@ -90,23 +90,6 @@ const TOOLS_DATA = [
     "fullReview": "رايت سونيك (Writesonic) تبرز كواحدة من أقوى منصات توليد المحتوى خصوصاً في كتابة المقالات الطويلة المتوافقة مع SEO. توفر الأداة واجهة سهلة وتتكامل مع أدوات أخرى مثل SurferSEO. كما تضم ميزة (Chatsonic) كبديل لـ ChatGPT للبحث المحدث. الأداة تتيح أيضاً توليد الصور والصوتيات مما يجعلها منصة شاملة. تستهدف صناع المحتوى والوكالات التسويقية."
   },
   {
-    "id": "koala_ai",
-    "name": "Koala AI",
-    "logo": "./images/logos/koala_ai.png",
-    "shortDesc": "كتابة مقالات جاهزة لـ SEO بضغطة زر لنشرها مباشرة.",
-    "category": "كتابة وتسويق",
-    "tags": [
-      "SEO",
-      "مقالات طويلة",
-      "ووردبريس"
-    ],
-    "price": "يبدأ من 9$",
-    "affiliateLink": "https://koala.sh/?ref=builditbyai",
-    "hasAffiliate": true,
-    "type": "website",
-    "fullReview": "كوالا مصممة تماما لصناع المحتوى وأصحاب المدونات. تصنع مسودات مقالة طويلة خلال ثوانٍ."
-  },
-  {
     "id": "koala",
     "name": "Koala AI",
     "logo": "./images/logos/koala.png",
