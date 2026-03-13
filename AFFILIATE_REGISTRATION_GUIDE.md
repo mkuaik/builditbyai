@@ -29,8 +29,8 @@
 | **Jasper** | [Register Here](https://www.jasper.ai/affiliate) | [ ] لم يبدأ | عمولة 30% |
 | **Writesonic** | [Register Here](https://writesonic.com/affiliate) | [x] قيد المراجعة | دعم ممتاز للعربية ✅ |
 | **SurferSEO** | [Register Here](https://surferseo.com/affiliate/) | [x] قيد المراجعة | عبر PartnerStack |
-| **Synthesia** | [Register Here](https://www.synthesia.io/affiliate-program) | [ ] لم يبدأ | اشتراكات غالية |
-| **HeyGen** | [Register Here](https://www.heygen.com/affiliate) | [ ] لم يبدأ | ترند الترجمة |
+| **Synthesia** | [Register Here](https://www.synthesia.io/affiliate-program) | [x] قيد المراجعة 🕒 | اشتراكات غالية |
+| **HeyGen** | [Register Here](https://www.heygen.com/affiliate) | [x] قيد المراجعة 🕒 | ترند الترجمة |
 | **Taskade** | [Register Here](https://www.taskade.com/affiliates) | [x] مقبول ✅ | عمولة لمدى الحياة |
 | **Topaz Labs** | [Register Here](https://topazlabs.com/affiliate) | [x] قيد المراجعة ⏳ | جودة صور وفيديو احترافية |
 | **Murf AI** | [Register Here](https://murf.ai/affiliate) | [ ] لم يبدأ | عقود شركات |
@@ -48,9 +48,9 @@
 | **Writesonic** | [Sign Up](https://writesonic.com/affiliate) | 30% متكررة | قوية جداً للعربية |
 | **Rytr** | [Dashboard](https://rytr.me/?via=builditbyai26) | [x] مقبول ✅ | عمولة 30% مدى الحياة |
 | **Submagic** | [Dashboard](https://submagic.co/?via=builditbyai26) | [x] مقبول ✅ | عمولة 30% مدى الحياة |
-| **HeyGen** | [Sign Up](https://heygen.com/affiliate) | 20% متكررة | أفضل أفاتار حالياً |
-| **Synthesia** | [Sign Up](https://synthesia.io/affiliate-program) | 20% متكررة | رائدة الفيديو الرقمي |
-| **Frase** | [Sign Up](https://frase.io/affiliate-program) | 30% متكررة | ممتازة للسيو |
+| **HeyGen** | [Sign Up](https://heygen.com/affiliate) | [x] قيد المراجعة 🕒 | أفضل أفاتار حالياً |
+| **Synthesia** | [Sign Up](https://synthesia.io/affiliate-program) | [x] قيد المراجعة 🕒 | رائدة الفيديو الرقمي |
+| **Frase** | [Sign Up](https://frase.io/affiliate-program) | [x] قيد المراجعة 🕒 | ممتازة للسيو |
 | **Lovo AI** | [Sign Up](https://lovo.ai/affiliate) | 20% متكررة | أصوات احترافية |
 | **AdCreative** | [Sign Up](https://adcreative.ai/affiliate) | 25-50% | عمولات مجزية |
 | **Mixo.io** | [Sign Up](https://mixo.io/affiliate) | 20% متكررة | بناء مواقع بدقيقة |
