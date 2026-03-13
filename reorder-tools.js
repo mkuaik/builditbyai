@@ -18,9 +18,12 @@ function reorder(tools) {
     const mediatorGroup = [];
     const others = [];
 
-    // Map tools for easy lookup but maintain uniqueness
+    // Map tools for easy lookup but maintain uniqueness and clean featured flag
     const toolMap = new Map();
-    tools.forEach(t => toolMap.set(t.id, t));
+    tools.forEach(t => {
+        delete t.featured; // Ensure featured is removed
+        toolMap.set(t.id, t);
+    });
 
     // Fill buckets
     priorityIds.forEach(id => {
