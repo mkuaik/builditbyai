@@ -47,7 +47,7 @@
 | :--- | :--- | :--- | :--- |
 | **Writesonic** | [Sign Up](https://writesonic.com/affiliate) | 30% متكررة | قوية جداً للعربية |
 | **Rytr** | [Dashboard](https://rytr.me/?via=builditbyai26) | [x] مقبول ✅ | عمولة 30% مدى الحياة |
-| **Submagic** | [Sign Up](https://submagic.co/affiliate) | 30% مدى الحياة | ترند صناعة المحتوى |
+| **Submagic** | [Dashboard](https://submagic.co/?via=builditbyai26) | [x] مقبول ✅ | عمولة 30% مدى الحياة |
 | **HeyGen** | [Sign Up](https://heygen.com/affiliate) | 20% متكررة | أفضل أفاتار حالياً |
 | **Synthesia** | [Sign Up](https://synthesia.io/affiliate-program) | 20% متكررة | رائدة الفيديو الرقمي |
 | **Frase** | [Sign Up](https://frase.io/affiliate-program) | 30% متكررة | ممتازة للسيو |
