@@ -31,7 +31,7 @@
 | **SurferSEO** | [Register Here](https://surferseo.com/affiliate/) | [x] قيد المراجعة | عبر PartnerStack |
 | **Synthesia** | [Register Here](https://www.synthesia.io/affiliate-program) | [x] قيد المراجعة 🕒 | اشتراكات غالية |
 | **HeyGen** | [Register Here](https://www.heygen.com/affiliate) | [x] قيد المراجعة 🕒 | ترند الترجمة |
-| **Taskade** | [Register Here](https://www.taskade.com/affiliates) | [x] مقبول ✅ | عمولة لمدى الحياة |
+| **Taskade** | [Register Here](https://www.taskade.com/affiliates) | [x] مقبول ✅ | الرابط: `via=builditbyai26` |
 | **Topaz Labs** | [Register Here](https://topazlabs.com/affiliate) | [x] قيد المراجعة ⏳ | جودة صور وفيديو احترافية |
 | **Murf AI** | [Register Here](https://murf.ai/affiliate) | [ ] لم يبدأ | عقود شركات |
 | **Chatbase** | [Register Here](https://www.chatbase.co/affiliate) | [ ] لم يبدأ | حلول بزنس |
