@@ -119,7 +119,7 @@ const TOOLS_DATA = [
       "تجارة إلكترونية"
     ],
     "price": "يبدأ من 19$ شهرياً",
-    "affiliateLink": "https://copysmith.ai/affiliate",
+    "affiliateLink": "https://copysmith.ai/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "تعد كوبي سميث (Copysmith) الأداة المثالية لفرق التسويق وأصحاب المتاجر الإلكترونية الذين يحتاجون إلى كميات كبيرة من المحتوى التسويقي عالي الجودة. تقوم الأداة بتوليد نصوص إعلانية، وصف للمنتجات، وعناوين بريدية جذابة تزيد من معدلات التحويل. تتميز بقدرتها على فهم سياق العلامة التجارية وتوفير الوقت والجهد في عمليات الكتابة الروتينية."
@@ -136,7 +136,7 @@ const TOOLS_DATA = [
       "سيو"
     ],
     "price": "يبدأ من 19$ شهرياً",
-    "affiliateLink": "https://neuronwriter.com/affiliate",
+    "affiliateLink": "https://neuronwriter.com/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "نيورون رايتر (NeuronWriter) هي أداة سيو قوية تساعدك على تخطيط وكتابة محتوى يتصدر الصفحة الأولى في جوجل. تعتمد الأداة على تحليل المنافسين وتقديم توصيات لغوية وكلمات مفتاحية يجب تضمينها لرفع ترتيب المقال. واجهتها سهلة الاستخدام وتوفر أدوات للتخطيط والمتابعة مما يجعلها خياراً ممتازاً للمدونين ووكالات السيو."
@@ -153,7 +153,7 @@ const TOOLS_DATA = [
       "تدريب"
     ],
     "price": "يبدأ من 28$ شهرياً",
-    "affiliateLink": "https://colossyan.com/affiliate",
+    "affiliateLink": "https://colossyan.com/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "كولوسيان (Colossyan) تعيد تعريف صناعة المحتوى التدريبي بتمكينك من إنشاء فيديوهات احترافية عبر شخصيات رقمية واقعية (Avatars) تتحدث بأكثر من 70 لغة. لا تحتاج لاستوديو أو كاميرا، فقط ادخل النص واختر الشخصية. المنصة مثالية للشركات التي تقدم دورات تدريبية أو شروحات تقنية لفرق العمل."
@@ -170,7 +170,7 @@ const TOOLS_DATA = [
       "مونتاج آلي"
     ],
     "price": "يبدأ من 49$ شهرياً",
-    "affiliateLink": "https://getmunch.com/affiliate",
+    "affiliateLink": "https://getmunch.com/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "مانش (Munch) هي الأداة الأقوى حالياً لاستخراج أفضل اللحظات من فيديوهاتك الطويلة على يوتيوب وتحويلها لمقاطع قصيرة ذكية. تقوم الأداة تلقائياً بتركيز الكاميرا على المتحدث، قص اللقطات الأكثر تفاعلاً، وتوليد ترويسات متوافقة مع ترندات السوشيال ميديا. خيار أساسي لصناع المحتوى والبودكاسترز."
@@ -187,7 +187,7 @@ const TOOLS_DATA = [
       "تسويق"
     ],
     "price": "يبدأ من 39$ شهرياً",
-    "affiliateLink": "https://creatify.ai/affiliate",
+    "affiliateLink": "https://creatify.ai/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "كريتيفاي (Creatify AI) سحرية لأصحاب المتاجر الإلكترونية. ضع رابط منتجك من أمازون أو شوبيفاي، وستقوم المنصة بكتابة السكريبت وتوليد فيديو إعلاني كامل مع تعليق صوتي ومشاهد جذابة. تساعدك الأداة على فحص مئات الأفكار الإعلانية بتكلفة ومجهود ضئيل جداً."
@@ -204,7 +204,7 @@ const TOOLS_DATA = [
       "محتوى"
     ],
     "price": "يبدأ من 15$ شهرياً",
-    "affiliateLink": "https://ocoya.com/affiliate",
+    "affiliateLink": "https://ocoya.com/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "أوكويا (Ocoya) تجمع بين برامج الجدولة (مثل Buffer) وبين أدوات التصميم (مثل Canva) في تطبيق واحد. تتيح لك كتابة الأوصاف، تصميم الصور، وجدولة النشر عبر منصات متعددة في ثوانٍ. المنصة توفر محرك ذكاء اصطناعي يقترح عليك الأفكار والهاشتاجات الأكثر فاعلية لنمو حساباتك."
@@ -221,7 +221,7 @@ const TOOLS_DATA = [
       "تصميم صور"
     ],
     "price": "خطة مجانية، والمدفوع 20$",
-    "affiliateLink": "https://predis.ai/affiliate",
+    "affiliateLink": "https://predis.ai/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "بريديس (Predis.ai) هي المنصة المتكاملة لصناع المحتوى المشغولين. بمجرد إعطائها وصفاً لمجال عملك، تقوم المنصة بتوليد تقويم محتوى كامل يشمل فيديوهات (Reels)، تصاميم صور، وأوصاف نصية (Captions) احترافية. كما توفر أدوات لتحليل المنافسين ومعرفة أنواع المحتوى التي تحقق أفضل نتائج في مجال تخصصك."
@@ -238,7 +238,7 @@ const TOOLS_DATA = [
       "ايميل ماركتنج"
     ],
     "price": "خطة مجانية مدى الحياة، والمدفوع 27$",
-    "affiliateLink": "https://systeme.io/affiliate",
+    "affiliateLink": "https://systeme.io/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "سيستم دوت إي أو (Systeme.io) هو الخيار الأفضل عربياً لبناء عملك عبر الإنترنت بالكامل في مكان واحد. يوفر بناء صفحات الهبوط، إدارة النشرات البريدية، إطلاق الدورات التدريبية، وأتمتة مسارات البيع. يتميز بواجهة سهلة للغاية وسعر منافس جداً مقارنة ببدائل مثل ClickFunnels، مع توفير أفلييت بعمولة مجزية جداً."
@@ -255,7 +255,7 @@ const TOOLS_DATA = [
       "مبيعات"
     ],
     "price": "خطة مجانية، والمدفوع 29$",
-    "affiliateLink": "https://tidio.com/affiliate",
+    "affiliateLink": "https://tidio.com/affiliate?ref=builditbyai",
     "hasAffiliate": true,
     "type": "tool",
     "fullReview": "تيديو (Tidio) تدمج بين المحادثات المباشرة (Live Chat) وبين وكلاء الذكاء الاصطناعي (Lyro) الذين يقومون بالرد على 70% من استفسارات العملاء آلياً بناءً على بيانات موقعك. تساعد تيديو المتاجر الإلكترونية على تقليل فترات الانتظار وزيادة رضا العملاء وتحويل الزوار إلى مشترين دائمين."
@@ -273,7 +273,7 @@ const TOOLS_DATA = [
       "مجاني"
     ],
     "price": "خطة مجانية قوية جداً",
-    "affiliateLink": "https://codeium.com",
+    "affiliateLink": "https://codeium.com?ref=builditbyai",
     "hasAffiliate": false,
     "type": "tool",
     "fullReview": "كوديوم (Codeium) هو المنافس المجاني الشرس لـ GitHub Copilot. يدعم أكثر من 70 لغة برمجة ويتكامل مع أشهر محررات الأكواد (VS Code, JetBrains). يتميز بسرعته العالية في التكملة التلقائية، كتابة الدوال المعقدة من خلال الأوامر النصية، والقدرة على شرح الأكواد الموجودة وتصحيحها بفعالية مذهلة."
@@ -1962,7 +1962,7 @@ const TOOLS_DATA = [
       "تحسين محتوى"
     ],
     "price": "مجاني / يبدأ من $9.99/شهر",
-    "affiliateLink": "https://wordtune.com/affiliate",
+    "affiliateLink": "https://wordtune.com/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "أداة Wordtune هي رفيق الكتابة الذي يستخدم الذكاء الاصطناعي لفهم ما تحاول قوله وتقديم اقتراحات لجعل كتابتك أكثر وضوحاً وجاذبية. تتميز بقدرتها على إعادة صياغة الجمل بلهجات مختلفة (رسمية أو ودية)، وتلخيص النصوص الطويلة، وتصحيح الأخطاء اللغوية والنحوية بدقة عالية. متاح كإضافة للمتصفح وتطبيق ويب."
   },
@@ -1979,7 +1979,7 @@ const TOOLS_DATA = [
       "أتمتة كتابة"
     ],
     "price": "مجاني / يبدأ من $5.59/شهر",
-    "affiliateLink": "https://textcortex.com/affiliate",
+    "affiliateLink": "https://textcortex.com/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "يعتبر Text Cortex واحداً من أكثر مساعدي الذكاء الاصطناعي مرونة، حيث يوفر قوالب جاهزة لكتابة المقالات، رسائل البريد الإلكتروني، ومنشورات التواصل الاجتماعي. يتميز بمتصفح ZenoChat الذي يبحث في الويب لحظياً، وإمكانية إنشاء قواعد معرفية خاصة بك لتدريب الذكاء الاصطناعي على أسلوبك الخاص. يدعم أكثر من 25 لغة."
   },
@@ -1996,7 +1996,7 @@ const TOOLS_DATA = [
       "كتابة مدونات"
     ],
     "price": "يبدأ من $15/شهر",
-    "affiliateLink": "https://aiseo.ai/affiliate",
+    "affiliateLink": "https://aiseo.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تركز منصة AISEO على مساعدة الكتاب في تصدر نتائج محركات البحث. توفر أدوات لإنشاء مدونات بنقرة واحدة، وتحسين سهولة القراءة بأسلوب Hemingway، وأداة 'Humanize' لجعل المحتوى يبدو بشرياً وتجاوز أدوات كشف الذكاء الاصطناعي. تتضمن أيضاً مولد صور ذكي وتحليلات متقدمة للبيانات."
   },
@@ -2013,7 +2013,7 @@ const TOOLS_DATA = [
       "مساعد ذكي"
     ],
     "price": "يبدأ من $10/شهر",
-    "affiliateLink": "https://getgenie.ai/affiliate",
+    "affiliateLink": "https://getgenie.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "GetGenie هو الحل المثالي لمستخدمي ووردبريس، حيث يدمج البحث عن الكلمات المفتاحية وتحليل المنافسين (SERP) مباشرة داخل محرر الموقع. يوفر أكثر من 30 قالب كتابة، ونظام نقاط (Content Score) لتحسين المحتوى في الوقت الفعلي، ومساعد دردشة (GenieChat) يدعم 33 لغة ومختلف الشخصيات."
   },
@@ -2030,7 +2030,7 @@ const TOOLS_DATA = [
       "تحقق من الحقائق"
     ],
     "price": "يبدأ من $19/شهر",
-    "affiliateLink": "https://hypotenuse.ai/affiliate",
+    "affiliateLink": "https://hypotenuse.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تم تصميم Hypotenuse AI خصيصاً لفرق التسويق والمتاجر الإلكترونية. يبرع في توليد آلاف أوصاف المنتجات دفعة واحدة (Bulk Generation) بناءً على ملفات CSV، مع ميزة 'Content Detective' للتحقق من الحقائق. كما يوفر أدوات لكتابة الإعلانات والمدونات المتوافقة مع السيو، ويتكامل مع Shopify وWordPress."
   },
@@ -2047,7 +2047,7 @@ const TOOLS_DATA = [
       "كتابة إبداعية"
     ],
     "price": "مجاني / يبدأ من $20/شهر",
-    "affiliateLink": "https://bertha.ai/affiliate",
+    "affiliateLink": "https://bertha.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تعد Bertha AI أداة رائدة لمصممي المواقع وصناع المحتوى، حيث تعمل كإضافة داخل ووردبريس وتدعم كافة أدوات بناء الصفحات. تساعد في كتابة العناوين الجذابة، وأوصاف المتاجر، وحتى توليد الصور البديلة (Alt Text) للصور لتحسين السيو. تتميز بواجهتها البسيطة ودعمها لإعادة الصياغة والدردشة الذكية."
   },
@@ -2064,7 +2064,7 @@ const TOOLS_DATA = [
       "مؤلفين"
     ],
     "price": "مجاني / يبدأ من $30/شهر",
-    "affiliateLink": "https://prowritingaid.com/affiliate",
+    "affiliateLink": "https://prowritingaid.com/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تتجاوز ProWritingAid مجرد تصحيح القواعد، حيث تقدم أكثر من 25 تقريراً مفصلاً حول أسلوب الكتابة، التكرار، والوضوح. ميزة 'Sparks' تستخدم الذكاء الاصطناعي لإعادة صياغة الجمل أو إكمال الكتابة. تعتبر الأداة المفضلة للكتاب المحترفين بفضل تكاملها مع Word وScrivener وGoogle Docs."
   },
@@ -2081,7 +2081,7 @@ const TOOLS_DATA = [
       "أتمتة"
     ],
     "price": "يبدأ من $97/سنة",
-    "affiliateLink": "https://linkwhisper.com/affiliate",
+    "affiliateLink": "https://linkwhisper.com/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "LinkWhisper هو ثورة في بناء الروابط الداخلية لمواقع ووردبريس. يقترح عليك الروابط ذات الصلة أثناء الكتابة باستخدام الذكاء الاصطناعي، ويساعدك في العثور على الصفحات اليتيمة (Orphan Pages) التي لا تملك روابط. يتميز بواجهة التحكم التي تتيح لك إضافة أو تعديل مئات الروابط بضغطة زر واحدة."
   },
@@ -2098,7 +2098,7 @@ const TOOLS_DATA = [
       "بيانات حية"
     ],
     "price": "يبدأ من $129/شهر",
-    "affiliateLink": "https://clearscope.io/affiliate",
+    "affiliateLink": "https://clearscope.io/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تستخدم Clearscope بيانات حية من محركات البحث لمساعدتك في كتابة محتوى يتفوق على المنافسين. توفر تقارير تفصيلية عن الكلمات المفتاحية المتعلقة، وتصنيف المحتوى (Grading) في الوقت الفعلي، وتتبع أداء المقالات القديمة. تعتبر أداة أساسية للشركات الكبرى التي تركز على نمو السيو العضوي."
   },
@@ -2115,7 +2115,7 @@ const TOOLS_DATA = [
       "إدارة حملات"
     ],
     "price": "يبدأ من $299/شهر",
-    "affiliateLink": "https://scaleo.io/affiliate",
+    "affiliateLink": "https://scaleo.io/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "Scaleo هي منصة احترافية مخصصة لأصحاب البرامج التسويقية. تستخدم تقنية Anti-Fraud Logic™ للكشف عن النقرات الوهمية وحماية ميزانية الإعلانات. توفر لوحات تحكم قابلة للتخصيص، وتتبع التحويلات في الوقت الفعلي، وأتمتة كاملة لتوزيع العمولات، مما يجعلها خياراً مثالياً للنمو المتسارع."
   },
@@ -2132,7 +2132,7 @@ const TOOLS_DATA = [
       "محتوى سريع"
     ],
     "price": "مجاني / يبدأ من $29/شهر",
-    "affiliateLink": "https://smartli.ai/affiliate",
+    "affiliateLink": "https://smartli.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "Smartli هو رفيق التجارة الإلكترونية الذي يساعدك في بناء محتوى متجرك بسرعة. يوفر أدوات لكتابة أوصاف المنتجات المحسنة للسيو، ومولد إعلانات لمنصات Facebook وTikTok، وحتى أدوات تصميم بسيطة لإزالة الخلفيات وتحرير الصور البديلة. يتميز بكونه حلاً شاملاً وسهل الاستخدام للمبتدئين."
   },
@@ -2149,7 +2149,7 @@ const TOOLS_DATA = [
       "صوت العلامة"
     ],
     "price": "مجاني / يبدأ من $15/شهر",
-    "affiliateLink": "https://junia.ai/affiliate",
+    "affiliateLink": "https://junia.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تتميز Junia AI بقدرتها الفائقة على كتابة مقالات تتجاوز 3000 كلمة في دقائق، مع تحسينها تلقائياً للسيو. توفر ميزات 'Auto-blooging' لنشر المحتوى تلقائياً في ووردبريس، وأداة لتحليل كلمات المنافسين، ومولد صور مدمج. تدعم أكثر من 30 لغة وتسمح بتدريب الذكاء الاصطناعي على صوت علامتك التجارية."
   },
@@ -2166,7 +2166,7 @@ const TOOLS_DATA = [
       "Schema Data"
     ],
     "price": "مجاني / يبدأ من $9.99/شهر",
-    "affiliateLink": "https://gizzmo.ai/affiliate",
+    "affiliateLink": "https://gizzmo.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "Gizzmo AI هو الحل السحري لمسوقي أمازون. يقوم بتحويل روابط المنتجات إلى مراجعات كاملة تشمل الصور، جداول المقارنة، والروابط المنظمة تلقائياً. يضيف أيضاً بيانات Schema المنظمة لمحركات البحث، مما يساعد مقالاتك في الظهور بشكل غني (Rich Snippets) في نتائج جوجل."
   },
@@ -2183,7 +2183,7 @@ const TOOLS_DATA = [
       "سيو متطور"
     ],
     "price": "يبدأ من $29/شهر",
-    "affiliateLink": "https://longshot.ai/affiliate",
+    "affiliateLink": "https://longshot.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "يركز LongShot AI على الموثوقية والدقة. بفضل ميزة 'FactGPT'، يقوم الذكاء الاصطناعي بالبحث في الويب لحظياً وتقديم حقائق موثقة بمصادرها. يوفر نظاماً متكاملاً لكتابة المدونات يشمل البحث عن الكلمات المفتاحية، وتوليد العناوين، وتجاوز أدوات كشف الذكاء الاصطناعي (AI Humanizer)."
   },
@@ -2200,7 +2200,7 @@ const TOOLS_DATA = [
       "تعدد لغات"
     ],
     "price": "يبدأ من $49/شهر",
-    "affiliateLink": "https://wordhero.co/affiliate",
+    "affiliateLink": "https://wordhero.co/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تعتمد WordHero على البساطة والسرعة, حيث توفر واجهة تحتوي على أكثر من 70 أداة متخصصة (إعلانات، بريد إلكتروني، وصف منتجات، أفكار مشاريع). تتميز بمحرر المحتوى الطويل (Editor Pro) الذي يساعدك في بناء مقال كامل في دقائق، ويدعم أكثر من 100 لغة مع إمكانية تنظيم المشاريع في مجلدات."
   },
@@ -2217,7 +2217,7 @@ const TOOLS_DATA = [
       "تصميم صور"
     ],
     "price": "مجاني / يبدأ من $9/شهر",
-    "affiliateLink": "https://creaitor.ai/affiliate",
+    "affiliateLink": "https://creaitor.ai/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "يجمع Creaitor.ai بين بساطة الاستخدام وقوة الأدوات. يقدم أكثر من 70 قالباً للمحتوى، مع ميزة 'SERP Beater' لمساعدتك في التغلب على المنافسين في نتائج البحث. يتضمن المنصة أيضاً مولد صور ذكي، ومحلل كلمات مفتاحية، وإمكانية تخصيص صوت العلامة التجارية لكل مشروع بشكل منفصل."
   },
@@ -2234,7 +2234,7 @@ const TOOLS_DATA = [
       "أمان البيانات"
     ],
     "price": "يبدأ من $39/شهر",
-    "affiliateLink": "https://inkforall.com/affiliate",
+    "affiliateLink": "https://inkforall.com/affiliate?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "تعد INKforall منصة فريدة تجمع بين الكتابة بالذكاء الاصطناعي وحماية المحتوى (Content Shield) ضد الانتحال وكشف الآلة. توفر أدوات لتخطيط المحتوى (Content Planner)، وتحليل الفجوات في السيو، وتحسين المقالات في الوقت الفعلي لزيادة فرص ظهورها في الصفحة الأولى من جوجل."
   },
@@ -2251,7 +2251,7 @@ const TOOLS_DATA = [
       "بساطة"
     ],
     "price": "مجاني / يبدأ من $18/شهر",
-    "affiliateLink": "https://lex.page",
+    "affiliateLink": "https://lex.page?ref=builditbyai",
     "hasAffiliate": false,
     "fullReview": "Lex.page هو المحرر المفضل للكتاب والمفكرين الذين يبحثون عن البساطة. يوفر واجهة نظيفة جداً (Minimalist) تتيح لك الدردشة مع الذكاء الاصطناعي حول أفكارك، وطلب إكمال الكتابة أو تصحيح الأسلوب. يدعم أقوى النماذج مثل GPT-4 و Claude، ويركز على سرعة الإنجاز والتركيز التام."
   }
