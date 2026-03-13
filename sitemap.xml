@@ -2,631 +2,697 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://builditbyai.com/index.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://builditbyai.com/about.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://builditbyai.com/privacy.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://builditbyai.com/terms.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://builditbyai.com/disclaimer.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://builditbyai.com//tools/chatgpt.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/midjourney.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/gemini.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/jasper.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/framer.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/synthesia.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/notion.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/canva.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/descript.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/surferseo.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/copyai.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/writesonic.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/murfai.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/clickup.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/looka.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <loc>https://builditbyai.com//tools/topaz_labs.html</loc>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/beehiiv.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/chatbase.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/elevenlabs.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/miro.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/pictory.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/leonardoai.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/grammarly.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/tome.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/invideo.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/heygen.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/runwayml.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/fliki.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/basedlabs.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/lovo.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/podcastle.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/rytr.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/koala.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/frase.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/scalenut.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/semrush.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/nightcafe.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/adcreative.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/kittl.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/taskade.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/pictory.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/rytr.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/submagic.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/copysmith.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/neuronwriter.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/colossyan.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/munch.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/creatify_ai.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/ocoya.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/predis_ai.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/systeme_io.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/tidio.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/codeium.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/writesonic.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/koala.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/leonardoai.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/semrush.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/invideo.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/elevenlabs.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/surferseo.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/notion.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/copyai.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/framer.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/chatgpt.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/midjourney.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/gemini.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/jasper.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/synthesia.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/canva.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/descript.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/murfai.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/clickup.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/looka.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/chatbase.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/miro.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/grammarly.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/tome.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/heygen.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/runwayml.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/fliki.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/basedlabs.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/lovo.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/podcastle.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/frase.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/scalenut.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/nightcafe.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/adcreative.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://builditbyai.com//tools/kittl.html</loc>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/repurposeio.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/claude.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/perplexity.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/otter.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/mixo.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/10web.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/getresponse.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/hubspot.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/cursor.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/v0.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/copilot.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/customgpt.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/dante.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/manychat.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/vidiq.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/tripo.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/holo.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/gamma.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/trello.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/slack.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/zapier.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/superhuman.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/beautiful_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/steve_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/tubebuddy.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/bhuman.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/quillbot.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/pika.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/vondy.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/tavily.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/gamma_app.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/dante_chatbot.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/sora.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/gong.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/phind.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/fathom.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/blackbox.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/opuspro.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/dall_e.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/hey.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/vidstudio.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/tome_present.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/adcopy.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/elephas.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/ai_lawyer.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/soundraw.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/murf_studio.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/vidyo_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/postel.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/anyword.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/fliki_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/spinrewriter.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/chat_simple.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/fireflies.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/browse_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/11_labs.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/synthesia_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/canva_magic.html</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://builditbyai.com//tools/koala_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/humbot.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://builditbyai.com//tools/typeform_ai.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

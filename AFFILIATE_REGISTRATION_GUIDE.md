@@ -55,6 +55,17 @@
 | **AdCreative** | [Sign Up](https://adcreative.ai/affiliate) | 25-50% | عمولات مجزية |
 | **Mixo.io** | [Sign Up](https://mixo.io/affiliate) | 20% متكررة | بناء مواقع بدقيقة |
 | **Chatbase** | [Sign Up](https://chatbase.co/affiliate) | 20% متكررة | بوتات ذكاء اصطناعي |
+| **Copysmith** | [Sign Up](https://copysmith.ai/affiliate) | 30% متكررة | كتابة تسويقية للمتاجر |
+| **NeuronWriter** | [Sign Up](https://neuronwriter.com/affiliate) | 30% متكررة | تحسين السيو |
+| **Colossyan** | [Sign Up](https://colossyan.com/affiliate) | 33% متكررة | أفاتار تدريبي |
+| **Munch** | [Sign Up](https://getmunch.com/affiliate) | 15% متكررة | ريلز وتيك توك |
+| **Creatify AI** | [Sign Up](https://creatify.ai/affiliate) | متكررة | فيديو إعلاني |
+| **Ocoya** | [Sign Up](https://ocoya.com/affiliate) | 30% متكررة | جدولة سوشيال ميديا |
+| **Predis.ai** | [Sign Up](https://predis.ai/affiliate) | 30% متكررة | منشورات ذكية |
+| **Systeme.io** | [Sign Up](https://systeme.io/affiliate) | 60% متكررة | أتمتة مبيعات (عمولة عالية) |
+| **Tidio** | [Sign Up](https://tidio.com/affiliate) | متكررة مدى الحياة | شات بوت مبيعات |
+| **Codeium** | [Sign Up](https://codeium.com) | نظام إحالة | مساعد مبرمجين |
+
 
 ---
 
