@@ -20,7 +20,7 @@
 | **Framer** | [Register Here](https://www.framer.com/partners/) | [x] قيد المراجعة | عمولة 50% |
 | **Notion** | [Register Here](https://www.notion.so/affiliates) | [x] قيد المراجعة | عبر PartnerStack |
 | **Copy.ai** | [Register Here](https://www.copy.ai/affiliate-program) | [x] قيد المراجعة | عبر PartnerStack |
-| **Pictory** | [Register Here](https://pictory.ai/affiliate-program) | [x] قيد المراجعة | تصاعدية لـ 50% |
+| **Pictory** | [Register Here](https://partners.pictory.ai/login) | [x] مقبول ✅ | عمولة 20% مدى الحياة |
 | **ElevenLabs** | [Register Here](https://elevenlabs.io/affiliates) | [x] قيد المراجعة | عبر PartnerStack |
 | **Leonardo AI** | [Register Here](https://leonardo.ai/affiliate-program/) | [x] قيد المراجعة | عبر Impact.com |
 | **Koala AI** | [Register Here](https://koala.sh/affiliate) | [x] قيد المراجعة | عبر البريد الإلكتروني ✅ |

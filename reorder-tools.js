@@ -5,7 +5,7 @@ const dataFile = path.join(process.cwd(), 'data', 'tools.json');
 const jsFile = path.join(process.cwd(), 'tools-data.js');
 
 function reorder(tools) {
-    const priorityIds = ['topaz_labs', 'beehiiv', 'taskade'];
+    const priorityIds = ['topaz_labs', 'beehiiv', 'taskade', 'pictory'];
     const directPendingIds = ['writesonic', 'koala_ai', 'koala']; // including koala as it might be used instead of koala_ai
     const mediatorPendingIds = [
         'leonardoai', 'semrush', 'invideo', 'elevenlabs', 'surferseo', 
