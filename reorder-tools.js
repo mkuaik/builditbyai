@@ -26,7 +26,6 @@ function reorder(tools) {
     priorityIds.forEach(id => {
         if (toolMap.has(id)) {
             const tool = toolMap.get(id);
-            tool.featured = true; // Mark as featured
             priorityGroup.push(tool);
             toolMap.delete(id);
         }
