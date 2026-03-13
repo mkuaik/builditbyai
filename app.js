@@ -137,28 +137,8 @@ function renderTools() {
   const countLabel = activeType !== 'الكل' ? typeLabels[activeType] || 'عنصر' : 'أداة';
   countEl.textContent = `عرض ${displayedTools.length} من أصل ${filtered.length} ${countLabel}`;
 
-  // Group by category when showing all and no search
-  if (activeFilter === 'الكل' && !searchQuery) {
-    const groups = {};
-    displayedTools.forEach(tool => {
-      if (!groups[tool.category]) groups[tool.category] = [];
-      groups[tool.category].push(tool);
-    });
-
-    let html = '';
-    let globalIndex = 0;
-    for (const [category, tools] of Object.entries(groups)) {
-      html += `<div class="category-header">${category}</div>`;
-      tools.forEach((tool, i) => {
-        html += renderToolCard(tool, globalIndex, tool.featured === true);
-        globalIndex++;
-      });
-    }
-    grid.innerHTML = html;
-  } else {
-    // Flat list for filtered/search view
-    grid.innerHTML = displayedTools.map((tool, i) => renderToolCard(tool, i, false)).join('');
-  }
+  // Always use flat list — no category headers (category is shown as badge inside each card)
+  grid.innerHTML = displayedTools.map((tool, i) => renderToolCard(tool, i, tool.featured === true)).join('');
 
   // Handle Load More button
   if (filtered.length > visibleLimit) {
@@ -215,6 +195,7 @@ function renderToolCard(tool, index, isFeatured) {
         <div class="tool-name">
           ${tool.name}
           ${isFeatured ? '<span class="badge-featured">إعلان مدفوع</span>' : ''}
+          <span class="badge-category">${tool.category}</span>
           <span class="badge-type badge-${tool.type || 'tool'}">
             ${(tool.type || 'tool') === 'website' ? '🌐 موقع' :
       (tool.type || 'tool') === 'app' ? '📱 تطبيق' : '🔧 أداة'}
