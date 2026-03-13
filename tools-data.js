@@ -110,7 +110,7 @@ const TOOLS_DATA = [
   {
     "id": "copysmith",
     "name": "Copysmith",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=copysmith.ai",
+    "logo": "./images/logos/copysmith.png",
     "shortDesc": "كتابة محتوى تسويقي احترافي للمتاجر الإلكترونية ووصف المنتجات.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -127,7 +127,7 @@ const TOOLS_DATA = [
   {
     "id": "neuronwriter",
     "name": "NeuronWriter",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=neuronwriter.com",
+    "logo": "./images/logos/neuronwriter.png",
     "shortDesc": "أداة متطورة لتحسين المحتوى الكتابي لتصدر نتائج محركات البحث (SEO).",
     "category": "كتابة وتسويق",
     "tags": [
@@ -144,7 +144,7 @@ const TOOLS_DATA = [
   {
     "id": "colossyan",
     "name": "Colossyan",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=colossyan.com",
+    "logo": "./images/logos/colossyan.png",
     "shortDesc": "إنتاج فيديوهات تعليمية وتدريبية احترافية باستخدام أفاتار واقعي.",
     "category": "صوت وفيديو",
     "tags": [
@@ -161,7 +161,7 @@ const TOOLS_DATA = [
   {
     "id": "munch",
     "name": "Munch",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=getmunch.com",
+    "logo": "./images/logos/munch.png",
     "shortDesc": "تحويل الفيديوهات الطويلة إلى مقاطع قصيرة (Reels/TikTok) بذكاء.",
     "category": "صوت وفيديو",
     "tags": [
@@ -178,7 +178,7 @@ const TOOLS_DATA = [
   {
     "id": "creatify_ai",
     "name": "Creatify AI",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=creatify.ai",
+    "logo": "./images/logos/creatify_ai.png",
     "shortDesc": "توليد إعلانات فيديو احترافية للمنتجات بمجرد وضع رابط المنتج.",
     "category": "صوت وفيديو",
     "tags": [
@@ -195,7 +195,7 @@ const TOOLS_DATA = [
   {
     "id": "ocoya",
     "name": "Ocoya",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=ocoya.com",
+    "logo": "./images/logos/ocoya.png",
     "shortDesc": "منصة شاملة لإدارة السوشيال ميديا وتوليد المحتوى بذكاء.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -212,7 +212,7 @@ const TOOLS_DATA = [
   {
     "id": "predis_ai",
     "name": "Predis.ai",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=predis.ai",
+    "logo": "./images/logos/predis_ai.png",
     "shortDesc": "توليد منشورات فيديو وصور كاملة للسوشيال ميديا بضغطة زر.",
     "category": "كتابة وتسويق",
     "tags": [
@@ -229,7 +229,7 @@ const TOOLS_DATA = [
   {
     "id": "systeme_io",
     "name": "Systeme.io",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=systeme.io",
+    "logo": "./images/logos/systeme_io.png",
     "shortDesc": "منصة متكاملة لأتمتة المبيعات وبناء صفحات الهبوط الشاملة.",
     "category": "برمجة ومواقع",
     "tags": [
@@ -246,7 +246,7 @@ const TOOLS_DATA = [
   {
     "id": "tidio",
     "name": "Tidio",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=tidio.com",
+    "logo": "./images/logos/tidio.png",
     "shortDesc": "نظام دردشة ذكي (Chatbot) يتفاعل مع زوار موقعك لزيادة البيع.",
     "category": "دعم العملاء",
     "tags": [
@@ -263,7 +263,7 @@ const TOOLS_DATA = [
   {
     "id": "codeium",
     "name": "Codeium",
-    "logo": "https://www.google.com/s2/favicons?sz=128&domain=codeium.com",
+    "logo": "./images/logos/codeium.png",
     "shortDesc": "المساعد البرمجي المجاني الأقوى لكتابة الأكواد بذكاء.",
     "category": "برمجة ومواقع",
     "tags": [
