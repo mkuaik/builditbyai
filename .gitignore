@@ -6,3 +6,6 @@ _archive/
 brain/
 .gemini/
 .env
+
+# Local Command Log
+COMMAND_LOG.md
