@@ -13,6 +13,22 @@ if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir);
 }
 
+// Simple Markdown to HTML formatter
+function formatText(text) {
+  if (!text) return '';
+  let html = text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') // Bold
+    .replace(/^\* (.*?)$/gm, '<li>$1</li>'); // Bullet points
+
+  // Wrap list items in <ul>
+  html = html.replace(/(<li>.*?<\/li>)+/g, (match) => `<ul style="margin: 12px 0; padding-right: 20px;">${match}</ul>`);
+
+  // Convert double newlines to paragraphs
+  html = html.split('\n\n').map(p => `<p style="margin-bottom: 15px;">${p.replace(/\n/g, '<br>')}</p>`).join('');
+
+  return html;
+}
+
 // Generate template for each tool
 const template = (tool, relatedTools) => `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -98,9 +114,9 @@ const template = (tool, relatedTools) => `<!DOCTYPE html>
       </div>
       
       <section style="background:var(--bg-secondary);border-radius:var(--radius-md);padding:24px;
-                  margin-bottom:30px;line-height:2;font-size:1rem;color:var(--text-secondary);">
+                  margin-bottom:30px;line-height:1.8;font-size:1rem;color:var(--text-secondary);">
         <h2 style="font-size:1.1rem;font-weight:700;color:var(--text-primary);margin-bottom:12px;">📝 نبذة مختصرة عن ${tool.name}</h2>
-        <p style="margin:0;">${tool.fullReview}</p>
+        <div style="margin:0;">${formatText(tool.fullReview)}</div>
       </section>
       
       <a href="${tool.affiliateLink}" target="_blank" rel="noopener noreferrer"
