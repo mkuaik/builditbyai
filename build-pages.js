@@ -16,15 +16,64 @@ if (!fs.existsSync(outDir)) {
 // Simple Markdown to HTML formatter
 function formatText(text) {
   if (!text) return '';
-  let html = text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') // Bold
-    .replace(/^\* (.*?)$/gm, '<li>$1</li>'); // Bullet points
+  
+  // 1. Filter out metadata and editor notes
+  let cleanText = text
+    .replace(/^> \*\*وصف السيو (.*?)\r?\n/gm, '')
+    .replace(/^> \*\*ملاحظة للمحرر (.*?)\r?\n/gms, '')
+    .replace(/^---$/gm, '<hr style="border:0;border-top:1px solid var(--border);margin:30px 0;">')
+    .trim();
 
-  // Wrap list items in <ul>
-  html = html.replace(/(<li>.*?<\/li>)+/g, (match) => `<ul style="margin: 12px 0; padding-right: 20px;">${match}</ul>`);
+  // 2. Links [text](url)
+  cleanText = cleanText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:var(--accent);text-decoration:none;border-bottom:1px dashed var(--accent);font-weight:600;">$1</a>');
 
-  // Convert double newlines to paragraphs
-  html = html.split('\n\n').map(p => `<p style="margin-bottom: 15px;">${p.replace(/\n/g, '<br>')}</p>`).join('');
+  // 3. Alerts (Better Regex)
+  cleanText = cleanText.replace(/^> \[!(IMPORTANT|WARNING|CAUTION|TIP|NOTE)\]\r?\n> (.*?)$/gm, (match, type, content) => {
+    const colors = { IMPORTANT: '#f97316', WARNING: '#ef4444', CAUTION: '#b91c1c', TIP: '#10b981', NOTE: '#3b82f6' };
+    const icon = type === 'TIP' ? '💡' : type === 'NOTE' ? 'ℹ️' : '⚠️';
+    return `<div class="alert-block" style="padding:16px;background:rgba(255,255,255,0.03);border-right:4px solid ${colors[type]};border-radius:var(--radius-md);margin:20px 0;">
+      <strong style="color:${colors[type]};display:block;margin-bottom:8px;">${icon} ${type}</strong>
+      ${content}
+    </div>`;
+  });
+
+  // 4. Tables (Enhanced Multi-line Regex)
+  const tableRegex = /^\|(.+)\|\r?\n\|([ :\|\-]+)\|\r?\n((?:\|.+\|\r?\n?)+)/gm;
+  cleanText = cleanText.replace(tableRegex, (match, header, separator, rows) => {
+    const headers = header.split('|').map(h => h.trim()).filter(h => h).map(h => `<th style="padding:12px;text-align:right;border-bottom:2px solid var(--border);color:var(--accent);">${h}</th>`).join('');
+    const bodyRows = rows.split(/\r?\n/).filter(r => r.trim()).map(r => {
+      const cells = r.split('|').map(c => c.trim()).filter(c => c).map(c => `<td style="padding:12px;border-bottom:1px solid var(--border-light);">${c}</td>`).join('');
+      return `<tr>${cells}</tr>`;
+    }).join('');
+    
+    return `<div class="table-container" style="overflow-x:auto;margin:25px 0;border-radius:var(--radius-md);border:1px solid var(--border);background:var(--bg-secondary);box-shadow:var(--shadow-sm);">
+      <table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+        <thead style="background:rgba(255,255,255,0.02);"><tr>${headers}</tr></thead>
+        <tbody>${bodyRows}</tbody>
+      </table>
+    </div>`;
+  });
+
+  // 5. Blockquotes (Normal)
+  cleanText = cleanText.replace(/^> (?!\[!)(.*?)$/gm, '<blockquote style="border-right:4px solid var(--accent);padding:10px 20px;margin:20px 0;background:var(--bg-secondary);font-style:italic;">$1</blockquote>');
+
+  // 6. Headers & Bold (Standardized H1-H3)
+  let html = cleanText
+    .replace(/^### (.*?)$/gm, '<h3 style="font-size:1.1rem;font-weight:700;color:var(--text-primary);margin-top:20px;margin-bottom:10px;">$1</h3>')
+    .replace(/^## (.*?)$/gm, '<h2 style="font-size:1.35rem;font-weight:700;color:var(--text-primary);margin-top:25px;margin-bottom:15px;border-right:4px solid var(--accent);padding-right:12px;">$1</h2>')
+    .replace(/^# (.*?)$/gm, '<h1 style="font-size:1.6rem;font-weight:900;color:var(--text-primary);margin-top:20px;margin-bottom:15px;line-height:1.2;">$1</h1>')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+  // 7. Lists
+  html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>');
+  html = html.replace(/(<li>.*?<\/li>)+/gs, (match) => `<ul style="margin: 15px 0; padding-right: 25px; list-style-type: square;">${match}</ul>`);
+
+  // 8. Paragraphs (Final Wrap)
+  const blocks = html.split(/\r?\n\r?\n/);
+  html = blocks.map(block => {
+    if (block.startsWith('<h') || block.startsWith('<div') || block.startsWith('<ul') || block.startsWith('<blockquote') || block.startsWith('<hr')) return block;
+    return `<p style="margin-bottom: 20px; line-height: 1.8;">${block.trim().replace(/\r?\n/g, '<br>')}</p>`;
+  }).join('');
 
   return html;
 }
@@ -35,18 +84,18 @@ const template = (tool, relatedTools) => `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="${tool.shortDesc}">
+  <meta name="description" content="${tool.metaDesc || tool.shortDesc}">
   <link rel="canonical" href="https://builditbyai.com/tools/${tool.id}.html">
   <title>${tool.name} — مراجعة شاملة | BuildItByAI</title>
   
   <!-- SEO Open Graph -->
   <meta property="og:title" content="${tool.name} — مراجعة شاملة | BuildItByAI">
-  <meta property="og:description" content="${tool.shortDesc}">
+  <meta property="og:description" content="${tool.metaDesc || tool.shortDesc}">
   <meta property="og:image" content="https://builditbyai.com/${tool.logo.startsWith('./') ? tool.logo.substring(2) : tool.logo}">
   <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${tool.name} — مراجعة شاملة | BuildItByAI">
-  <meta name="twitter:description" content="${tool.shortDesc}">
+  <meta name="twitter:description" content="${tool.metaDesc || tool.shortDesc}">
   <meta name="twitter:image" content="https://builditbyai.com/${tool.logo.startsWith('./') ? tool.logo.substring(2) : tool.logo}">
 
   <!-- Schema.org JSON-LD -->
@@ -113,19 +162,18 @@ const template = (tool, relatedTools) => `<!DOCTYPE html>
         ${tool.tags.map(t => `<span class="tool-tag">${t}</span>`).join('')}
       </div>
       
-      <section style="background:var(--bg-secondary);border-radius:var(--radius-md);padding:24px;
-                  margin-bottom:30px;line-height:1.8;font-size:1rem;color:var(--text-secondary);">
-        <h2 style="font-size:1.1rem;font-weight:700;color:var(--text-primary);margin-bottom:12px;">📝 نبذة مختصرة عن ${tool.name}</h2>
-        <div style="margin:0;">${formatText(tool.fullReview)}</div>
-      </section>
+      <div style="margin-bottom: 2.5rem; line-height: 1.8; color: var(--text-primary);">
+        ${formatText(tool.fullReview).replace(/<p style="margin-bottom: 20px; line-height: 1.8;">النتيجة النهائية: (.*?)<\/p>/g, '<p style="margin-top: 30px; font-size: 1.5rem; font-weight: 900; color: var(--accent); border-top: 2px solid var(--border); padding-top: 20px; display: inline-block;">النتيجة النهائية: $1</p>')}
+      </div>
       
       <a href="${tool.affiliateLink}" target="_blank" rel="noopener noreferrer"
-         style="display:block;text-align:center;padding:16px;background:var(--accent);
-         color:#fff;border-radius:var(--radius-sm);font-weight:700;font-size:1.1rem;
-         text-decoration:none;transition:all 0.2s ease; box-shadow: 0 4px 12px rgba(249,115,22,0.3);"
-         onmouseover="this.style.background='var(--accent-hover)'"
-         onmouseout="this.style.background='var(--accent)'">
-        زيارة الموقع الرسمي لـ ${tool.name} ↗
+         style="display:block;text-align:center;padding:18px;background:linear-gradient(135deg, var(--accent), #f97316);
+         color:#fff;border-radius:var(--radius-md);font-weight:800;font-size:1.2rem;
+         text-decoration:none;transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 10px 20px rgba(249,115,22,0.4);
+         border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden;"
+         onmouseover="this.style.transform='translateY(-3px) scale(1.02)'; this.style.boxShadow='0 15px 30px rgba(249,115,22,0.5)'"
+         onmouseout="this.style.transform='none'; this.style.boxShadow='0 10px 20px rgba(249,115,22,0.4)'">
+        ${tool.ctaText || `زيارة الموقع الرسمي لـ ${tool.name} ↗`}
       </a>
     </article>
 
